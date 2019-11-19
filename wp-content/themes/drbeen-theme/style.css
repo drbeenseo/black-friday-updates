@@ -1,0 +1,11 @@
+/*
+ Theme Name:   DrBeen Theme
+ Template:     yootheme
+ Author:       Michael LeBarron
+ Description:  YOOtheme Child Theme
+ Version:      1.0.0
+ Text Domain:  yootheme-child
+*/
+.page-template-testimonial #tm-sidebar{
+	display:none;
+}

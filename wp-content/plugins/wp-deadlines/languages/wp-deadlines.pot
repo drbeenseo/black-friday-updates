@@ -1,0 +1,274 @@
+# Copyright (C) 2017 wp-deadlines
+# This file is distributed under the same license as the wp-deadlines package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-deadlines\n"
+"Report-Msgid-Bugs-To: https://www.themesgrove.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: themesgrove <info@themesgrove.com>\n"
+"Language-Team: themesgrove <info@themesgrove.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/class-wp-deadlines-admin.php:66
+msgid "Deadlines"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:67, admin/class-wp-deadlines-admin.php:118
+msgid "Deadline"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:87
+msgid "WP Deadline Settings"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:109
+msgid "Date"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:112
+msgid "Countdown Type"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:113
+msgid "Select your desired Countdown Type."
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:119
+msgid "Evergreen"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:123
+msgid "Select Date"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:135
+msgid "Select Timezone"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:145, admin/class-wp-deadlines-admin.php:340, public/class-wp-deadlines-shortcode.php:146, public/class-wp-deadlines-shortcode.php:169, public/class-wp-deadlines-shortcode.php:203
+msgid "Days"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:156, admin/class-wp-deadlines-admin.php:351, public/class-wp-deadlines-shortcode.php:147, public/class-wp-deadlines-shortcode.php:165, public/class-wp-deadlines-shortcode.php:199
+msgid "Hours"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:167, admin/class-wp-deadlines-admin.php:362, public/class-wp-deadlines-shortcode.php:148, public/class-wp-deadlines-shortcode.php:166, public/class-wp-deadlines-shortcode.php:200
+msgid "Minutes"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:178
+msgid "Enable Cookie"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:189
+msgid "Cookie Validity"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:190
+msgid "in days"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:201
+msgid "Enable Flyout"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:208
+msgid "Flyout Position"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:212
+msgid "Top"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:213
+msgid "Bottom"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:222
+msgid "Enable Button in Flyout"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:236
+msgid "Content"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:239, admin/class-wp-deadlines-widget.php:57
+msgid "Title"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:245
+msgid "Description"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:251
+msgid "Finished Message"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:253
+msgid "Write text to display after finishing the countdown."
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:254
+msgid "This offer has expired!"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:259
+msgid "Button Text"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:269
+msgid "Button Link"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:282
+msgid "Countdown"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:285
+msgid "Hide Days?"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:290, admin/class-wp-deadlines-admin.php:301, admin/class-wp-deadlines-admin.php:312, admin/class-wp-deadlines-admin.php:323, admin/class-wp-deadlines-admin.php:334
+msgid "Yes"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:291, admin/class-wp-deadlines-admin.php:302, admin/class-wp-deadlines-admin.php:313, admin/class-wp-deadlines-admin.php:324, admin/class-wp-deadlines-admin.php:335
+msgid "No"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:296
+msgid "Hide Hours?"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:307
+msgid "Hide Minutes?"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:318
+msgid "Hide Seconds?"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:329
+msgid "Custom Label?"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:373, public/class-wp-deadlines-shortcode.php:149, public/class-wp-deadlines-shortcode.php:167, public/class-wp-deadlines-shortcode.php:201
+msgid "Seconds"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:387
+msgid "Style"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:390
+msgid "Background Color"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:402
+msgid "Digit Color"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:404
+msgid "This color will also be used as Font Color in gif image."
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:410
+msgid "Digit Font Size"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:412, admin/class-wp-deadlines-admin.php:427, admin/class-wp-deadlines-admin.php:434, admin/class-wp-deadlines-admin.php:448
+msgid "Provide a unit(16px, 16pt, 1em)"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:418
+msgid "Label Color"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:425
+msgid "Label Font Size"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:432
+msgid "Title Font Size"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:439
+msgid "Title Color"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:446
+msgid "Desc Font Size"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:453
+msgid "Desc Color"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:460
+msgid "Button Background Color"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:471
+msgid "Button Background Color on Hover"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:482
+msgid "Button Text Color"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:493
+msgid "Button Text Color on Hover"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:504
+msgid "Font Family"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:521
+msgid "Font Weight"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:554
+msgid "Display Settings"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:567
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:568
+msgid "Copy and use this shortcode anywhere you want."
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:580
+msgid "GIF URL"
+msgstr ""
+
+#: admin/class-wp-deadlines-admin.php:581
+msgid "Copy and use this gif url in your email template."
+msgstr ""
+
+#: admin/class-wp-deadlines-widget.php:16
+msgid "Widget for displaying WP Deadline countdown"
+msgstr ""
+
+#: admin/class-wp-deadlines-widget.php:42
+msgid "No posts selected!"
+msgstr ""
+
+#: admin/class-wp-deadlines-widget.php:60
+msgid "Title:"
+msgstr ""
+
+#: admin/class-wp-deadlines-widget.php:76
+msgid "Select Deadline:"
+msgstr ""

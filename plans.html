@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="fb:app_id" content="821631814575262" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pricing</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700" rel="stylesheet">
+    <link rel="icon" type="image/png" href="//images.drbeen.com/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//images.drbeen.com/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="//images.drbeen.com/favicon-16x16.png" sizes="16x16">
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+        </style>
+        <link rel='stylesheet' id='theme-style-css'  href='https://www.drbeen.com/wp-content/themes/yootheme/css/theme.1.css?ver=1541091947' type='text/css' media='all' />
+        <link rel='stylesheet' id='theme-style-update-css'  href='https://www.drbeen.com/wp-content/themes/yootheme/css/theme.update.css?ver=1.11.6' type='text/css' media='all' />
+        <!-- Inline jetpack_facebook_likebox -->
+        <style id='jetpack_facebook_likebox-inline-css' type='text/css'>
+        .widget_facebook_likebox {
+            overflow: hidden;
+        }
+        </style>
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"frontpage","pagePostType2":"single-page","pagePostAuthor":"mlebarron"});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PL8LK8C');</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8VHZZB');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//widgets.wp.com'/>
+<link rel='dns-prefetch' href='//s0.wp.com'/>
+<link rel='dns-prefetch' href='//0.gravatar.com'/>
+<link rel='dns-prefetch' href='//1.gravatar.com'/>
+<link rel='dns-prefetch' href='//2.gravatar.com'/>
+<style type='text/css'>img#wpstats{display:none}</style><script>try { <div id="fb-root"></div></script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=821631814575262&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk')); } catch (e) { console.error('Custom Theme JS Code: ', e); }</script>			<link rel="stylesheet" type="text/css" id="wp-custom-css" href="https://www.drbeen.com/?custom-css=ebd0995d23" />
+		    </head>
+    <body class="home page-template-default page page-id-41  elementor-default ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PL8LK8C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W8VHZZB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
+
+
+<script>try { <div id="fb-root"></div></script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=821631814575262&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk')); } catch (e) { console.error('Custom Theme JS Code: ', e); }</script>
+
+
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=138849176745000&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <header id="header">
+        <div class="container-fluid">
+            <div id="logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <button id="navBurger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div id="nav">
+                <ul>
+                    <li><a href="team.html">Team</a></li>
+                    <!-- <li><a href="#">Article</a></li>
+                    <li><a href="#">3D Body</a></li> -->
+                    <!-- <li><a href="#">Video Library</a></li> -->
+                    <li><a href="https://members.drbeen.com/browse">Video Library</a></li>
+                    <li><a href="https://members.drbeen.com/library">NEW Video Library</a></li>
+                    <li><a href="plans.html">Pricing</a></li>
+                    <li><a href="https://members.drbeen.com/account">SIGN IN</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="top-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                            <div class="top-section-subtitle">See Pricing and Frequently Asked Questions Below</div>
+                        <h2>Join the 1 Million+ People Worldwide Who Trust DrBeen’s Medical Education Lectures</h2>
+                        <br>
+                    </div>
+                    <div class="col-lg-6">
+                            <div class="facebook-box">
+                                <div class="fb-box-text">Trusted by 1 million+ people worldwide. 372,000 Facebook fans.</div>
+                                <br><br>
+                                <div class="fb-like" data-href="https://www.facebook.com/drbeenmedical/" data-layout="button_count"
+                                    data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+                                <br><br>
+                                <a href="#" class="fb-box-text-ns"> See Pricing Below </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <!--Review 1-->
+                                <div class="dr-quote plans-testimonials">
+                                        <img src="img/robert.png" style="border-radius: 50%;">
+                                        <div class="testimonial-text">
+                                            “The videos have really expanded my understanding of my patients pathologies. I don’t work for dr been , I’ve received no compensation and never will from them , that being said , <strong>he’s presented a good program at a fair price</strong> with amazing drawings for us visual learners”
+                                        </div>
+                                        <div class="tesatimonial-author">Robert Adams, ICU Nurse</div>
+                                    </div>
+                
+                            <!--span class="img-round"></span>
+                            <div class="quote-text">“Dr. Been is the best thing since slice bread”</div>
+                            <div class="quote-author">Dona Karan, Medical Student</div-->
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="lecture-table">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="lecture-title">
+                        drbeen’s Lectures Are More Affordable While <br>Consistently Rated As Higher Quality
+                    </div>
+                    <div class="table-responsive">
+                            <table class="table table-bordered custom-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">COURSE</th>
+                                        <th scope="col">COST</th>
+                                        <th scope="col">COMPARISON</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>drbeen Monthly</td>
+                                        <td>$27/month for access to 800+ courses</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kaplan</td>
+                                        <td>$6,000 to $10,000 (for all topics)</td>
+                                        <td>4300% more expensive*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>USMLE RX</td>
+                                        <td>$119 per month for both steps</td>
+                                        <td>440% more expensive</td>
+                                    </tr>
+                                    <tr>
+                                        <td>FitzGerald Associates</td>
+                                        <td>$300 per course (5 courses = $1,500)</td>
+                                        <td>925% more expensive</td>
+                                    </tr>
+									<tr>
+                                        <td>HippoEd</td>
+                                        <td>$1,090 whole package</td>
+                                        <td>672% more expensive</td>
+                                    </tr>
+									<tr>
+                                        <td>Osmosis.org</td>
+                                        <td>$39 per month</td>
+                                        <td>44% more expensive</td>
+                                    </tr>
+									<tr>
+                                        <td>Lecturio</td>
+                                        <td>$49 per month</td>
+                                        <td>81% more expensive</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+							* When comparing drbeen’s monthly price to courses priced at the full package level, we have used 6 months’ worth of our monthly membership ($27 x 6 = $162)
+                        </div>
+                        <div class="course-ratings">
+                            <div class="clearfix">
+                                <div class="float-sm-left">
+                                    <span class="star-label">
+                                        4.9
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="#ffffff" d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" /></svg>
+                                    </span>
+                                    <span class="star-stats"><b>4.9</b> of 5 stars</span>
+                                </div>
+                                <div class="float-sm-right">
+                                    <div class="star-totals">
+                                        <b>320</b> reviews
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="needs-zone">
+        <div class="container">
+                <div class="lecture-title">
+                        Do You Need CMEs/CEUs?
+                </div>
+           <div class="lecture-text">
+                CMEs and CEUs are formal credits/certificates granted for passing the courses.<br> 
+                <div class="lecture-text-b">Only working professionals in the US and Canada need them.</div> 
+
+                <div class="lecture-text-imp">IMPORTANT:</div> 
+                Everyone gets access all the videos regardless of the option you choose. The only difference is whether you get a formal certificate. Please select the right option for your situation.
+            </div>
+
+        </div>
+
+        <div id="plans">
+            <div class="container">
+                <div class="plans-tabs">
+                    <a href="#plans-cmes" class="active">
+                        <span class="text-desktop">With CMEs/CEUs</span>
+						<span class="text-mobile">Pricing <u>with</u> CMEs/CEUs</span>
+                        
+                    </a>
+                    <a href="#plans-no-cmes">
+                        <span class="text-desktop">No CMEs or CEUs</span>
+                        <span class="text-mobile">Pricing <u>without</u> CMEs/CEUs</span>
+						
+                    </a>
+                </div>
+                <div class="plans-contents">
+                    <div class="plans-panel" id="plans-cmes">
+                        <div class="plans-boards">
+                            <div class="plan-board">
+                                <div class="plan-title">Monthly Plan</div>
+                                <ul class="plan-features">
+                                    <li>Unlimited CEs/CMEs</li>
+                                    <li>More than 800 credit hours</li>
+                                    <li>New videos weekly</li>
+                                    <li>Basic and Clinical Medicine</li>
+                                    <li>Videos from real doctors</li>
+                                    <li>Mobile friendly</li>
+                                    <li>Multiple playback speeds (0.5x to 2x)</li>
+                                </ul>
+                                <div class="plan-bottom">
+                                    <div class="plan-price">$27 / month</div>
+                                    <a href="https://members.drbeen.com/purchase-subscription/special-monthly-been" class="plan-buy">Buy now</a>
+                                    <div class="plan-lead">And Get Instant Access Now</div>
+                                    <div class="plan-cancel">Cancel anytime</div>
+                                </div>
+                            </div>
+
+                            <div class="plans-money-back">
+                                <img src="img/plans-badge.png" alt="">
+                            </div>
+
+                            <div class="plan-board plan-popular">
+                                <div class="plan-title">Yearly Plan</div>
+                                <div>                                    
+                                        $27 x 12 months = $324<p>$324 -$147 = $177<br><strong>$177 in your pocket</strong></p>    
+                                </div>
+                                <ul class="plan-features">
+                                    <li>Unlimited CEs/CMEs</li>
+                                    <li>More than 800 credit hours</li>
+                                    <li>New videos weekly</li>
+                                    <li>Basic and Clinical Medicine</li>
+                                    <li>Videos from real doctors</li>
+                                    <li>Mobile friendly</li>
+                                    <li>Multiple playback speeds (0.5x to 2x)</li>
+                                </ul>
+                                <div class="plan-bottom">
+                                    <div class="plan-price">$147 / year</div>
+                                    <a href="https://members.drbeen.com/purchase-subscription/special-been" class="plan-buy">Buy now</a>
+                                    <div class="plan-lead">And Get Instant Access Now</div>
+                                    <div class="plan-cancel">Cancel anytime</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="plans-money-back">
+                            <img src="img/plans-badge.png" alt="">
+                            <div><i>No questions asked, no hassle money back guarantee</i></div>
+                        </div>
+
+                    </div>
+                    <div class="plans-panel" id="plans-no-cmes" style="display: none;">
+                        <div class="plans-boards">
+                            <div class="plan-board">
+                                <div class="plan-title">Monthly Plan</div>
+                                <ul class="plan-features">
+                                    <li>New videos weekly</li>
+                                    <li>Basic and Clinical Medicine</li>
+                                    <li>Videos from real doctors</li>
+                                    <li>Mobile friendly</li>
+                                    <li>Multiple playback speeds (0.5x to 2x)</li>
+                                </ul>
+                                <div class="plan-bottom">
+                                    <div class="plan-price">$22 / month</div>
+                                    <a href="https://members.drbeen.com/purchase-subscription/student-monthly-22" class="plan-buy">Buy now</a>
+                                    <div class="plan-lead">And Get Instant Access Now</div>
+                                    <div class="plan-cancel">Cancel anytime</div>
+                                </div>
+                            </div>
+
+                            <div class="plans-money-back">
+                                <img src="img/plans-badge.png" alt="">
+                            </div>
+
+                            <div class="plan-board plan-popular">
+                                <div class="plan-title">Lifetime Plan</div>
+                                <ul class="plan-features">
+                                    <li>No CMEs</li>
+                                    <li>New videos weekly</li>
+                                    <li>Basic and Clinical Medicine</li>
+                                    <li>Videos from real doctors</li>
+                                    <li>Mobile friendly</li>
+                                    <li>Multiple playback speeds (0.5x to 2x)</li>
+                                    
+                                </ul>
+                                <div class="plan-bottom">
+                                    <div class="plan-price">$97 (One time payment)</div>
+                                    <a href="https://members.drbeen.com/purchase/student-lifetime-access" class="plan-buy">Buy now</a>
+                                    <div class="plan-lead">And Get Instant Access Now</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="plans-money-back">
+                            <img src="img/plans-badge.png" alt="">
+                            <div><i>No questions asked, no hassle money back guarantee</i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="plans-faq">
+
+                    <!--div class="testimonials plans-testimonials">
+                        <img src="img/Picture4.png">
+                        <div class="testimonial-text">
+                            “The videos have really expanded my understanding of my patients pathologies. I don’t work for dr been , I’ve received no compensation and never will from them , that being said , <strong>he’s presented a good program at a fair price</strong> with amazing drawings for us visual learners”
+                        </div>
+                        <div class="tesatimonial-author">Robert Adams, ICU Nurse</div>
+                    </div-->
+					<div class="testimonials plans-testimonials">
+                        <img src="img/Picture3.png">
+                        <div class="testimonial-text">
+                            “Since I read so slow its much better than reading a textbook. Webinars usually only cover a small focused topic, but you cover many topics. Also your price is much cheaper then traveling to professional association conferences”
+                        </div>
+                        <div class="tesatimonial-author">Dr. Andy Ewens</div>
+                    </div>
+                    <div class="plans-faq">
+                    <div class="lecture-title">
+                        <h2>Frequently Asked Questions</h2>
+                    </div>
+                    <div class="container">
+                    <div class="lecture-text faq-blocks">
+                        <div class="lecture-text-imp">WHAT DOES "LIFETIME ACCESS" MEAN?</div>
+                        You will be able to access our primary content for as long as we are able to offer it. This includes new content that gets added to our library. We are currently adding 1-2 videos per week to our core<br>
+                        content included in lifetime access.<br>
+                        Sometimes we are able to offer limited time content that contains restrictions forcing us to have it as an additional purchase. We do everything we can to include everything in our core content. Over 99% of our videos are included in the core content.
+                    </div>
+                     <div class="lecture-text faq-blocks">
+                        <div class="lecture-text-imp">WHAT PAYMENTS DO YOU ACCEPT?</div>
+                        We accept major debit and credit cards, as well as PayPal. We also accept a few alternate forms of payment depending on your location, please email us at info@drbeen.com for more information.
+                    </div>
+
+                    <div class="lecture-text faq-blocks">
+                        <div class="lecture-text-imp">CAN I CANCEL MY MEMBERSHIP?</div>
+                        We want to make sure every person who purchases a membership is happy. If you are experiencing any issues please let us know at support@drbeen.com and we will take care of you.
+                    </div>
+
+                    </div>
+                    </div>
+                
+            </div>
+            <div class="container">
+                    <ul style="list-style-type: none; padding-top: 20px;">
+                        <li><a href="https://www.drbeen.com/privacy/">OUR PRIVACY POLICY</a></li>
+                        <li><a href="https://www.drbeen.com/terms/">TERMS OF USE</a></li>
+                    </ul>
+                    </div>
+        
+        <script src="js/main.js"></script>
+        <!--div class="footer">
+                <div class="container-fluid">
+                    <div id="nav_footer">
+                        <ul>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="plans.html">Plans</a></li>
+                            <li><a href="privacy.html">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div-->
+        <!--
+The IP2Location Redirection is using IP2Location LITE geolocation database. Please visit http://lite.ip2location.com for more information.
+-->
+<script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='20de7c008a628a00b7b4a0004637e8005aa7bd0066d6d000789ab600e1ba6c00';j.dataset.sumoPlatform='wordpress';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>	<div style="display:none">
+</div>
+<style>#page\#8 { position: relative; box-shadow: 0 0 35px rgba(0, 0, 0, 0.04); } </style><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Pakistan Discount --><div id="om-yzcy6xddcj0ox2pvfpdt-holder"></div><script>var yzcy6xddcj0ox2pvfpdt,yzcy6xddcj0ox2pvfpdt_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){yzcy6xddcj0ox2pvfpdt_poll(function(){if(window['om_loaded']){if(!yzcy6xddcj0ox2pvfpdt){yzcy6xddcj0ox2pvfpdt=new OptinMonsterApp();return yzcy6xddcj0ox2pvfpdt.init({"u":"36822.741857","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;yzcy6xddcj0ox2pvfpdt=new OptinMonsterApp();yzcy6xddcj0ox2pvfpdt.init({"u":"36822.741857","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->		<script type="text/javascript">var yzcy6xddcj0ox2pvfpdt_shortcode = true;</script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var php_data = {"ac_settings":{"tracking_actid":66055452,"site_tracking":1},"user_email":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.drbeen.com/wp-content/plugins/activecampaign-subscription-forms/site_tracking.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201844'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jpfbembed = {"appid":"249643311490","locale":"en_US"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.drbeen.com/wp-content/plugins/jetpack/_inc/build/facebook-embed.min.js'></script>
+<script type='text/javascript' src='https://www.drbeen.com/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201844.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+_stq = window._stq || [];
+_stq.push([ 'view', {v:'ext',j:'1:6.0',blog:'134534382',post:'41',tz:'0',srv:'www.drbeen.com'} ]);
+_stq.push([ 'clickTrackerInit', '134534382', '41' ]);
+</script>            
+</body>
+</html>

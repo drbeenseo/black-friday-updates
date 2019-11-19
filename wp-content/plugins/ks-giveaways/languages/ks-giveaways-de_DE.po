@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-03-03 10:23-0800\n"
+"PO-Revision-Date: 2017-04-01 22:02-0700\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-ks-giveaways-admin.php:1343
+#, php-format
+msgid "Giveaway updated. <a href=\"%s\">View giveaway</a>"
+msgstr "Gewinnspiel aktualisiert. <a href=\"%s\">Gewinnspiel ansehen</a>"
+
+#: admin/class-ks-giveaways-admin.php:1344
+msgid "Custom field updated."
+msgstr "Benutzerdefiniertes Feld aktualisiert"
+
+#: admin/class-ks-giveaways-admin.php:1345
+msgid "Custom field deleted."
+msgstr "Benutzerdefiniertes Feld gelöscht"
+
+#: admin/class-ks-giveaways-admin.php:1346
+msgid "Giveaway updated."
+msgstr "Gewinnspiel aktualisiert"
+
+#: admin/class-ks-giveaways-admin.php:1348
+#, php-format
+msgid "Giveaway restored to revision from %s"
+msgstr "Gewinnspiel wiederhergestellt zur Version vom %s"
+
+#: admin/class-ks-giveaways-admin.php:1349
+#, php-format
+msgid "Giveaway published. <a href=\"%s\">View giveaway</a>"
+msgstr "Gewinnspiel veröffentlicht. <a href=\"%s\">Gewinnspiel ansehen</a>"
+
+#: admin/class-ks-giveaways-admin.php:1350
+msgid "Giveaway saved."
+msgstr "Gewinnspiel gesichert"
+
+#: admin/class-ks-giveaways-admin.php:1351
+#, php-format
+msgid ""
+"Giveaway submitted. <a target=\"_blank\" href=\"%s\">Preview giveaway</a>"
+msgstr "Gewinnspiel eingereicht. <a target=\"_blank\" href=\"%s\">Vorschau Gewinnspiel</a>"
+
+#: admin/class-ks-giveaways-admin.php:1352
+#, php-format
+msgid ""
+"Giveaway scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview giveaway</a>"
+msgstr ""
+"Gewinnspiel geplant für: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Vorschau Gewinnspiel</a>"
+
+#: admin/class-ks-giveaways-admin.php:1354
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: admin/class-ks-giveaways-admin.php:1355
+#, php-format
+msgid ""
+"Giveaway draft updated. <a target=\"_blank\" href=\"%s\">Preview giveaway</a>"
+msgstr ""
+"Gewinnspielentwurf aktualisiert. <a target=\"_blank\" href=\"%s\">Vorschau Gewinnspiel</a>"
+
+#: admin/class-ks-giveaways-admin.php:1409
+msgid "Cannot publish giveaway until all fields are completed."
+msgstr "Gewinnspiel kann nicht veröffentlicht werden solange nicht alle Felder ausgefüllt sind."
+
+#: admin/class-ks-giveaways-admin.php:1410
+msgid "Cannot publish giveaway because provided image link URLs are not valid."
+msgstr "Gewinnspiel kann nicht veröffentlicht werden da die angegebenen Bild URLs nicht verfügbar sind"
+
+#: admin/class-ks-giveaways-admin.php:1619
+msgid "Step 1 &mdash; Giveaway Information"
+msgstr "Schritt 1 &mdash; Gewinnspielinformation"
+
+#: admin/class-ks-giveaways-admin.php:1620
+msgid "Step 2 &mdash; Prize Information"
+msgstr "Schritt 2 &mdash; Preis Information"
+
+#: admin/class-ks-giveaways-admin.php:1621
+msgid "Step 3 &mdash; Question"
+msgstr "Schritt 3 &mdash; Frage"
+
+#: admin/class-ks-giveaways-admin.php:1622
+msgid "Step 4 &mdash; Design"
+msgstr "Schritt 4 &mdash; Design"
+
+#: admin/class-ks-giveaways-admin.php:1625
+msgid "Embed Code"
+msgstr "Code einfügen"
+
+#: admin/class-ks-giveaways-admin.php:1641
+msgid "Step 5 &mdash; Services"
+msgstr "Schritt 5 &mdash; Dienste"
+
+#: admin/includes/class-ks-contestants-list-table.php:130
+msgid "No contestants found."
+msgstr "Keine Konstante gefunden."
+
+#: admin/includes/class-ks-winners-list-table.php:176
+msgid "No winners found."
+msgstr "Kein Gewinner gefunden."
+
+#: admin/views/settings.php:2
+msgid "KingSumo Giveaways"
+msgstr "KingSumo Gewinnspiel"
+
+#: templates/responsive3/ended.php:4 templates/responsive3/rules.php:9
+msgid "Giveaway Ended"
+msgstr "Gewinnspiel vorbei"
+
+#: templates/responsive3/ended.php:20
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: templates/responsive3/ended.php:22
+msgid "Verifying Winner"
+msgstr "Gewinner wird verifiziert"
+
+#: templates/responsive3/ended.php:24
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: templates/responsive3/rules.php:5
+msgid "Giveaway Starts"
+msgstr "Gewinnspiel startet am"
+
+#: templates/responsive3/rules.php:11
+msgid "Giveaway Ends"
+msgstr "Gewinnspiel endet am"
+
+#: templates/responsive3/rules.php:19
+msgid "Prizes Awarded"
+msgstr "Gewinner ausgelost"
+
+#: templates/responsive3/rules.php:25
+msgid "Enter sweepstakes and receive exclusive offers from"
+msgstr "Nimm an unserem Gewinnspiel teil und erhalte exklusive Angebote von"
+
+#: templates/responsive3/rules.php:25
+msgid "Unsubscribe anytime"
+msgstr "Du kannst dich jederzeit abmelden"
+
+#: templates/responsive3/rules.php:27
+msgid "is not affiliated with the giveaway"
+msgstr "steht nicht in Verbindung mit dem Gewinnspiel"
+
+#: templates/responsive3/rules.php:29
+msgid "Read official rules"
+msgstr "Offizielle Regeln lesen"
+
+#: templates/responsive3/rules.php:36
+msgid "Powered by KingSumo Giveaways for WordPress"
+msgstr "Powered by KingSumo Gewinnspiele für WordPress"
+
+#: templates/responsive3/running.php:16
+msgid "confirmed"
+msgstr "bestätigt"
+
+#: templates/responsive3/running.php:22
+msgid ""
+"Your number of contest entries will display once you have confirmed your "
+"email address. Please check your inbox to confirm now."
+msgstr "Die Anzahl deiner Lose wird angezeigt, sobald du deine Email Adresse"
+"bestätigt hast. Bitte schau in deiner Mailbox nach."
+
+#: templates/responsive3/running.php:81
+msgid "Answer correctly to qualify"
+msgstr "Frage beantworten"
+
+#: templates/responsive3/running.php:86
+msgid "Incorrect answer, try again!"
+msgstr "Leider falsch, versuch es nochmal!"
+
+#: templates/responsive3/running.php:99
+msgid "email address"
+msgstr "E-mail"
+
+#: templates/responsive3/running.php:117
+msgid "First Name"
+msgstr "Vorname"
+
+#: templates/responsive3/running.php:121
+msgid "Please enter your first name"
+msgstr "Bitte gib deinen Vornamen ein"
+
+#: templates/responsive3/running.php:128
+msgid "Email"
+msgstr "E-mail"
+
+#: templates/responsive3/running.php:132
+msgid "An email address is required"
+msgstr "Wir brauchen eine E-mail Adresse"
+
+#: templates/responsive3/running.php:138
+msgid "Did you mean"
+msgstr "Meintest du"
+
+#: templates/responsive3/running.php:152
+msgid "Enter"
+msgstr "Teilnehmen"

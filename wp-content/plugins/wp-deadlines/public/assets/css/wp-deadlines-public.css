@@ -1,0 +1,60 @@
+.wp-deadlines div[id^="wp-deadline-countdown"] {
+  display: flex;
+  font-size: 18px; }
+
+.wp-deadlines .count-item {
+  padding: 15px; }
+  .wp-deadlines .count-item .count-digit {
+    font-size: 42px; }
+  .wp-deadlines .count-item .count-label {
+    font-size: 18px; }
+
+.wp-deadlines .countdown-finished-message {
+  font-size: 20px; }
+
+.wp-deadline-flyout {
+  padding: 15px;
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .wp-deadline-flyout .wp-deadlines {
+    display: flex;
+    align-items: center; }
+    @media all and (max-width: 768px) {
+      .wp-deadline-flyout .wp-deadlines {
+        flex-direction: column; } }
+  .wp-deadline-flyout .wp-deadline-content {
+    margin-right: 30px; }
+  .wp-deadline-flyout .wp-deadline-title, .wp-deadline-flyout .wp-deadline-desc {
+    padding: 0;
+    margin: 0; }
+  .wp-deadline-flyout .tg-close-btn {
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    right: 50px;
+    cursor: pointer; }
+  .wp-deadline-flyout.flyout-top {
+    top: 0; }
+  .wp-deadline-flyout.flyout-bottom {
+    bottom: 0; }
+  .wp-deadline-flyout .count-item {
+    padding: 5px; }
+    .wp-deadline-flyout .count-item .count-digit {
+      font-size: 24px; }
+    .wp-deadline-flyout .count-item .count-label {
+      font-size: 16px; }
+
+.wp-deadline-flyout-btn {
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-left: 30px;
+  align-self: center; }
+
+.admin-bar .wp-deadline-flyout.flyout-top {
+  top: 32px; }

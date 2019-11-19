@@ -1,0 +1,140 @@
+.postbox{
+	max-width:95%;
+}
+.wow-admin{	
+	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-weight: 500 !important;		
+	overflow: auto;
+	color:#000;
+	max-width:100%;
+}
+.wow-admin input[type=text],.wow-admin input[type=tel],.wow-admin input[type=number], .wow-admin input[type=date], .wow-admin select , .wow-admin textarea{
+	background: #E0FFFB;
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	border: 1px solid #cecece;
+	padding: 10px;
+	width: 80%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 2px;
+	}	
+.wow-admin textarea{height:150px;}	
+.wow-admin select {height:40px;}
+.signup textarea{width: 90%;}
+.wow-admin-col {
+position:relative;
+width: 100%;
+float: left;	
+	min-height: 1px;	
+	white-space: normal;
+	padding-bottom: 15px;
+	}  
+.wow-admin-col-1, .wow-admin-col-2, .wow-admin-col-3, .wow-admin-col-4, .wow-admin-col-5, .wow-admin-col-6, .wow-admin-col-7, .wow-admin-col-8, .wow-admin-col-9, .wow-admin-col-10, .wow-admin-col-11, .wow-admin-col-12 {
+	float: left;	
+	min-height: 1px;	
+	padding-top: 15px;
+	white-space: normal;
+	display: inline-block;
+  vertical-align: middle;
+	}    
+.wow-admin-col-12 {width: 100%;}
+.wow-admin-col-11 {width: 91.66666666666666%;}
+.wow-admin-col-10 {width: 83.33333333333334%;}
+.wow-admin-col-9 {width: 75%;}
+.wow-admin-col-8 {width: 66.66666666666666%;}
+.wow-admin-col-7 {width: 58.333333333333336%;}
+.wow-admin-col-6 {width: 50%;}
+.wow-admin-col-5 {width: 41.66666666666667%;}
+.wow-admin-col-4 {width: 33.33333333333333%;}
+.wow-admin-col-3 {width: 25%;}
+.wow-admin-col-2 {width: 16.666666666666664%;}
+.wow-admin-col-1 {width: 8.333333333333332%;}
+.right {
+	text-align: right;
+}
+.adminblock{
+	cursor:default !important;
+	 border-bottom: 2px solid maroon; 
+}
+ul.wow-admin-menu {
+list-style: none;
+margin-top: 20px;
+}
+ul.wow-admin-menu li {
+display: inline;
+}
+ul.wow-admin-menu li a {
+	display: inline-block;
+	width: 128px;
+	height: 32px;
+	background: #1f9ef8;
+	border-radius: 5px;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+ul.wow-admin-menu li a:hover, ul.wow-admin-menu li a:active {
+	background: #128be0;
+}
+ul.wow-admin-menu li a.selected {
+background: #128be0;
+}
+
+.wow_admin_signup {
+    border-top: 3px solid #f9622d;
+    margin: 15px 0;	
+	background: #FFFFFF;        
+	width:100%;	
+	text-align: center;
+	overflow: auto;
+}
+.wow_admin_signup h2{	
+	font-size: 36px; 
+	line-height: 1; 	 
+	text-transform: uppercase; 
+	margin-bottom: 0;
+	color: #f9622d;
+	padding:0 !important;
+	margin:0 !important;
+}
+.wow_admin_signup h2 span{
+	display: inline-block; 
+	font-weight: bold; 
+	font-size: 24px;
+}
+.wow_admin_signup span {	
+	font-size:10px;
+	text-align: left;
+}
+
+.wow_admin_signup_or{
+	margin:10px;
+	font-weight:500;
+	
+}
+
+.wow_admin_signup input[type="email"]{ background: #FFFFFF; width: 45%; padding: 10px 0; color: #f47555; margin: 0px; font-size: 14px;  font-weight: 500; box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);  height: 35px; text-align: center;}
+.wow_admin_signup input[type="email"]::-webkit-input-placeholder {color:#f47555;}
+.wow_admin_signup input[type="email"]::-moz-placeholder          {color:#f47555;}
+.wow_admin_signup input[type="email"]:-moz-placeholder           {color:#f47555;}
+.wow_admin_signup input[type="email"]:-ms-input-placeholder      {color:#f47555;}
+
+.wow_admin_signup input[type="submit"] {border: none;   box-sizing: border-box; padding: 10px 10px; margin: 0; box-shadow: none; border-radius: 0;font-size: 14px; height: 35px; color: #FFFFFF; background: #d56144; cursor: pointer; text-transform: uppercase;}
+
+@media only screen and (max-width: 480px) {
+    .wow-admin-col {
+
+white-space: normal;
+	} 
+    .wow-admin-col-1, .wow-admin-col-2, .wow-admin-col-3, .wow-admin-col-4, .wow-admin-col-5, .wow-admin-col-6, .wow-admin-col-7, .wow-admin-col-8, .wow-admin-col-9, .wow-admin-col-10, .wow-admin-col-11, .wow-admin-col-12 {
+	width: 100%;
+	display: block;
+	}  
+}

@@ -1,0 +1,849 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wow_Marketing v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-08-09 09:36+0300\n"
+"Last-Translator: Wow-Company\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+# @ wow-marketing
+msgid "Add email to the list"
+msgstr "Добавлять email в список"
+# @ wow-marketing
+msgid "Add new"
+msgstr "Добавить"
+# @ wow-marketing
+msgid "Alignment"
+msgstr "Выравнивание"
+# @ wow-marketing
+msgid "Also enable closing on"
+msgstr "Закрывать при клике (нажатию)"
+# @ wow-marketing
+msgid "Animated display"
+msgstr "Анимированый показ"
+# @ wow-marketing
+msgid "Animation duration"
+msgstr "Продолжительность анимации"
+# @ wow-marketing
+msgid "Auto-close modal window"
+msgstr "Авто-закрытие модального окна"
+# @ wow-marketing
+msgid "Background color"
+msgstr "Фоновый цвет"
+# @ wow-marketing
+msgid "Background hover color"
+msgstr "Фоновый цвет при наведении"
+# @ wow-marketing
+msgid "Background image"
+msgstr "Фоновая картинка"
+# @ wow-marketing
+msgid "Block user from singup"
+msgstr "Блокировка пользователя для подписки"
+# @ wow-marketing
+msgid "Border color"
+msgstr "Цвет границ"
+# @ wow-marketing
+msgid "Border radius"
+msgstr "Радиус границ"
+# @ wow-marketing
+msgid "Border width"
+msgstr "Ширина границ"
+# @ wow-marketing
+msgid "Bottom position"
+msgstr "Нижнее позиционирование"
+# @ wow-marketing
+msgid "Button background color"
+msgstr "Фоновый цвет кнопки"
+# @ wow-marketing
+msgid "Button background hover color"
+msgstr "Фонвый цвет кнопки при наведении"
+# @ wow-marketing
+msgid "Button color"
+msgstr "Цвет кнопки"
+# @ wow-marketing
+msgid "Button disabled color"
+msgstr "Цвет неактивной кнопки"
+# @ wow-marketing
+msgid "Button hover color"
+msgstr "Цвет кнопки при наведении"
+# @ wow-marketing
+msgid "Button position"
+msgstr "Позиция кнопки"
+# @ wow-marketing
+msgid "Button text color"
+msgstr "Цвет текста кнопки"
+# @ wow-marketing
+msgid "Button text size"
+msgstr "Размер текста кнопки"
+# @ wow-marketing
+msgid "Button text"
+msgstr "Текст кнопки"
+# @ wow-marketing
+msgid "Button width"
+msgstr "Ширина кнопки"
+# @ wow-marketing
+msgid "Button's text"
+msgstr "Текст кнопки"
+# @ wow-marketing
+msgid "Button's width"
+msgstr "Ширина кнопки"
+# @ wow-marketing
+msgid "Call to share text"
+msgstr "Текст призыва к расшариванию"
+# @ wow-marketing
+msgid "Check out awesome wordpress plugins by DayesDesign at http//wow-marketing.com/"
+msgstr "Попробуйте удивительные плагины от DayesDesign на http//wow-marketing.com/"
+# @ wow-marketing
+msgid "Close Button"
+msgstr "Кновка Закрыть"
+# @ wow-marketing
+msgid "Close confirmation text after sending in"
+msgstr "Текст сообщение после отправки почты"
+# @ wow-marketing
+msgid "Color"
+msgstr "Цвет"
+# @ wow-marketing
+msgid "Comment field"
+msgstr "Поле комментарий"
+# @ wow-marketing
+msgid "Confirmation first text color"
+msgstr "Цвет текста первой части сообщения"
+# @ wow-marketing
+msgid "Confirmation first text size"
+msgstr "Размер текста первой части сообщения"
+# @ wow-marketing
+msgid "Confirmation second text color"
+msgstr "Цвет текста второй части сообщения"
+# @ wow-marketing
+msgid "Confirmation second text size"
+msgstr "Размер текста второй части сообщения"
+# @ wow-marketing
+msgid "Confirmation text color"
+msgstr "Цвет текста сообщения"
+# @ wow-marketing
+msgid "Confirmation text size"
+msgstr "Размер текста сообщения"
+# @ wow-marketing
+msgid "Confirmation text"
+msgstr "Текст сообщения"
+# @ wow-marketing
+msgid "Content"
+msgstr "Содержание"
+# @ wow-marketing
+msgid "Countdown"
+msgstr "Таймер"
+# @ wow-marketing
+msgid "Countdown height"
+msgstr "Высота таймера"
+# @ wow-marketing
+msgid "Countdown settings"
+msgstr "Настройки таймера"
+# @ wow-marketing
+msgid "Countdown type"
+msgstr "Тип таймера"
+# @ wow-marketing
+msgid "Countdown width"
+msgstr "Ширина таймера"
+# @ wow-marketing
+msgid "Day"
+msgstr "День"
+# @ wow-marketing
+msgid "days"
+msgstr "дней"
+# @ wow-marketing
+msgid "Delay"
+msgstr "Задержка"
+# @ wow-marketing
+msgid "Delete"
+msgstr "Удалить"
+# @ wow-marketing
+msgid "Delimiter font size"
+msgstr "Размер разделителя"
+# @ wow-marketing
+msgid "Delimiter text color"
+msgstr "Цвет разделителя"
+# @ wow-marketing
+msgid "Digits text color"
+msgstr "Цвет цифр"
+# @ wow-marketing
+msgid "Display"
+msgstr "Отображение"
+# @ wow-marketing
+msgid "Display an e-mail form"
+msgstr "Показать форму отправки письма"
+# @ wow-marketing
+msgid "Display button"
+msgstr "Показать кнопку"
+# @ wow-marketing
+msgid "Don’t show on screens less than"
+msgstr "Не показывать на экранах меньше"
+# @ wow-marketing
+msgid "Duplicate"
+msgstr "Копировать"
+# @ wow-marketing
+msgid "Edit"
+msgstr "Редактировать"
+# @ wow-marketing
+msgid "Email field"
+msgstr "Поле email"
+# @ wow-marketing
+msgid "Email from"
+msgstr "Email от"
+# @ wow-marketing
+msgid "Email settings"
+msgstr "Настройки почты"
+# @ wow-marketing
+msgid "Email settings to user"
+msgstr "Настройки почты для пользователя"
+# @ wow-marketing
+msgid "Emails"
+msgstr ""
+# @ wow-marketing
+msgid "Enable FB custom share text"
+msgstr "Включить произвольный текст для FB"
+# @ wow-marketing
+msgid "Error text color"
+msgstr "Цвет текста ошибки"
+# @ wow-marketing
+msgid "Error text size"
+msgstr "Размер текста ошибки"
+# @ wow-marketing
+msgid "Error text"
+msgstr "Текст ошибки"
+# @ wow-marketing
+msgid "Example #anchor-link"
+msgstr "Пример, #anchor-link"
+# @ wow-marketing
+msgid "Facebook app id"
+msgstr ""
+# @ wow-marketing
+msgid "Facebook share text"
+msgstr "Facebook текст поделиться"
+# @ wow-marketing
+msgid "Facebook sharing"
+msgstr "Facebook поделиться"
+# @ wow-marketing
+msgid "Facebook uses your site's regular metadata or facebook specific metadata"
+msgstr "Facebook использует регулярные метаданные или facebook метаданные с вашего сайта"
+# @ wow-marketing
+msgid "First text color"
+msgstr "Цвет первого текста"
+# @ wow-marketing
+msgid "First text size"
+msgstr "Размер первого текста"
+# @ wow-marketing
+msgid "First text"
+msgstr "Первый текст"
+# @ wow-marketing
+msgid "Font size"
+msgstr "Размер шрифта"
+# @ wow-marketing
+msgid "Form align"
+msgstr "Выравниванеи формы"
+# @ wow-marketing
+msgid "Form background color"
+msgstr "Фоновый цвет формы"
+# @ wow-marketing
+msgid "Form margin bottom"
+msgstr "Внешний отступ снизу"
+# @ wow-marketing
+msgid "Form margin left"
+msgstr "Внешний отступ слева"
+# @ wow-marketing
+msgid "Form margin right"
+msgstr "Внешний отступ справа"
+# @ wow-marketing
+msgid "Form margin top"
+msgstr "Внешний отступ сверху"
+# @ wow-marketing
+msgid "Form padding bottom"
+msgstr "Внутренний отступ снизу"
+# @ wow-marketing
+msgid "Form padding left"
+msgstr "Внутренний отступ слева"
+# @ wow-marketing
+msgid "Form padding right"
+msgstr "Внутренний отступ справа"
+# @ wow-marketing
+msgid "Form padding top"
+msgstr "Внутренний отступ  сверху"
+# @ wow-marketing
+msgid "Form width"
+msgstr "Ширина формы"
+# @ wow-marketing
+msgid "Forms"
+msgstr "Формы"
+# @ wow-marketing
+msgid "Form's field background color"
+msgstr "Цвет фона полей формы"
+# @ wow-marketing
+msgid "Form's field border color"
+msgstr "Цвет границ полей формы"
+# @ wow-marketing
+msgid "Form's field border radius"
+msgstr "Радиус полей формы"
+# @ wow-marketing
+msgid "Form's field border"
+msgstr "Граница полей формы"
+# @ wow-marketing
+msgid "Get PRO version!"
+msgstr "Получить PRO версию!"
+# @ wow-marketing
+msgid "Goal-completed users"
+msgstr "Достижение цели"
+# @ wow-marketing
+msgid "Guess what? Great news! We will give away a lifetime premium account to those who bring 3 friends to sign up!"
+msgstr ""
+# @ wow-marketing
+msgid "Height"
+msgstr "Высота"
+# @ wow-marketing
+msgid "Hide days"
+msgstr "Скрыть дни"
+# @ wow-marketing
+msgid "Hide hours"
+msgstr "Скрыть часы"
+# @ wow-marketing
+msgid "Hide minutes"
+msgstr "Скрыть минуты"
+# @ wow-marketing
+msgid "Hide seconds"
+msgstr "Скрыть секунды"
+# @ wow-marketing
+msgid "How many triggers you want"
+msgstr "Выерите количество целей"
+# @ wow-marketing
+msgid "Icon color"
+msgstr "Цвет иконки"
+# @ wow-marketing
+msgid "Icon height"
+msgstr "Высота иконки"
+# @ wow-marketing
+msgid "Icon custom"
+msgstr "Собственная иконка"
+# @ wow-marketing
+msgid "If you want to use a custom text, you can enable it, and you will need to setup a FB app with your link and specify the App ID below. See instructions"
+msgstr "Если вы хотите использовать произвольный текст, вы можете включить его, и вам нужно будет подключить app FB с вашей ссылкой и указать идентификатор приложения ниже. Смотрите инструкции"
+# @ wow-marketing
+msgid "Input height"
+msgstr "Высота поля"
+# @ wow-marketing
+msgid "Invites taken"
+msgstr "Приглашения приняты"
+# @ wow-marketing
+msgid "Item position"
+msgstr "Позиция пункта меню"
+# @ wow-marketing
+msgid "Item type"
+msgstr "Тип пункта меню"
+# @ wow-marketing
+msgid "Item width"
+msgstr "Ширина пункта меню"
+# @ wow-marketing
+msgid "Lead directly to the form"
+msgstr "Перенаправление к форме"
+# @ wow-marketing
+msgid "Learn more about PRO version features"
+msgstr "Подробнее о версии  PRO "
+# @ wow-marketing
+msgid "Left position"
+msgstr "Позиционирование слева"
+# @ wow-marketing
+msgid "License"
+msgstr "Лицензия"
+# @ wow-marketing
+msgid "Link text size"
+msgstr "Размер текста ссылки"
+# @ wow-marketing
+msgid "Link"
+msgstr "Ссылка"
+# @ wow-marketing
+msgid "List"
+msgstr "Список"
+# @ wow-marketing
+msgid "Mail subject"
+msgstr "Тема письма"
+# @ wow-marketing
+msgid "Make sure to set modal window to 'Click on a link or button' and 'All posts and pages'"
+msgstr "Убедитесь в том, что в модальном окне установлен его показ при  \"Нажатие на кнопку\" и \"Все записи и страницы\""
+# @ wow-marketing
+msgid "Modal Windows"
+msgstr "Модальные Окна"
+# @ wow-marketing
+msgid "Month"
+msgstr "Месяц"
+# @ wow-marketing
+msgid "ms"
+msgstr "мс"
+# @ wow-marketing
+msgid "Name field"
+msgstr "Поле Имя"
+# @ wow-marketing
+msgid "Name"
+msgstr "Название"
+# @ wow-marketing
+msgid "Number font size"
+msgstr "Размер цифр"
+# @ wow-marketing
+msgid "Number of invites"
+msgstr "Количество приглашений"
+# @ wow-marketing
+msgid "Open in a new window"
+msgstr "Открыть в новом окне"
+# @ wow-marketing
+msgid "Order"
+msgstr "Порядок"
+# @ wow-marketing
+msgid "Overlay Esc"
+msgstr ""
+# @ wow-marketing
+msgid "Overlay"
+msgstr "Фон"
+# @ wow-marketing
+msgid "p"
+msgstr ""
+# @ wow-marketing
+msgid "Padding bottom"
+msgstr "Отступ снизу"
+# @ wow-marketing
+msgid "Padding left & right"
+msgstr "Отступ слева и справа"
+# @ wow-marketing
+msgid "Padding left"
+msgstr "Отступ слева"
+# @ wow-marketing
+msgid "Padding right"
+msgstr "Отступ справа"
+# @ wow-marketing
+msgid "Padding top & bottom"
+msgstr "Отступ сверху и снизу"
+# @ wow-marketing
+msgid "Padding top"
+msgstr "Отступ сверху"
+# @ wow-marketing
+msgid "Padding"
+msgstr "Отступ"
+# @ wow-marketing
+msgid "Phone field"
+msgstr "Поле телефон"
+# @ wow-marketing
+msgid "Placeholder text color"
+msgstr "Цвет текста подсказки"
+# @ wow-marketing
+msgid "Position"
+msgstr "Позиция"
+# @ wow-marketing
+msgid "PRO Version"
+msgstr "PRO Версия"
+# @ wow-marketing
+msgid "Referrals required"
+msgstr "Необходимо реффералов"
+# @ wow-marketing
+msgid "Reset in"
+msgstr "Сбросить"
+# @ wow-marketing
+msgid "Right position"
+msgstr "Позиционирование справа"
+# @ wow-marketing
+msgid "Second text color"
+msgstr "Цвет второго текста"
+# @ wow-marketing
+msgid "Second text size"
+msgstr "Размер второго текста"
+# @ wow-marketing
+msgid "Second text"
+msgstr "Второй текст"
+# @ wow-marketing
+msgid "Select a type"
+msgstr "Выбрать тип"
+# @ wow-marketing
+msgid "Send mail to admin"
+msgstr "Отправить почту администратору"
+# @ wow-marketing
+msgid "Send mail to user"
+msgstr "Отправить почту пользователю"
+# @ wow-marketing
+msgid "Send to"
+msgstr "Отправить"
+# @ wow-marketing
+msgid "Share link"
+msgstr "Ссылка поделиться"
+# @ wow-marketing
+msgid "Sharing"
+msgstr "Поделиться"
+# @ wow-marketing
+msgid "Shortcode"
+msgstr "Шорткод"
+# @ wow-marketing
+msgid "Show a modal window"
+msgstr "Показать модальное окно"
+# @ wow-marketing
+msgid "Show button for modal window"
+msgstr "Показать кнопку для модального окна"
+# @ wow-marketing
+msgid "Show modal window"
+msgstr "Показать модальное окно"
+# @ wow-marketing
+msgid "Show only once? (use cookies)"
+msgstr "Показать единожды? (использовать куки)"
+# @ wow-marketing
+msgid "Show settings"
+msgstr "Настройка показа"
+# @ wow-marketing
+msgid "Show title for Days"
+msgstr "Показать заголовок для Дней"
+# @ wow-marketing
+msgid "Show title for Hours"
+msgstr "Показать заголовок для Часов"
+# @ wow-marketing
+msgid "Show title for Minutes"
+msgstr "Показать заголовок для Минут"
+# @ wow-marketing
+msgid "Show title for Seconds"
+msgstr "Показать заголовок для Секунд"
+# @ wow-marketing
+msgid "Side Menu"
+msgstr "Боковое меню"
+# @ wow-marketing
+msgid "Signed up users "
+msgstr "Подписчики"
+# @ wow-marketing
+msgid "Signup"
+msgstr "Подписаться"
+# @ wow-marketing
+msgid "Size"
+msgstr "Размер"
+# @ wow-marketing
+msgid "Social Networks"
+msgstr "Социальные сети"
+# @ wow-marketing
+msgid "Specify anchor (Optional)"
+msgstr "Спецыальный анкор (Опционально)"
+# @ wow-marketing
+msgid "Specify the amount of days the user will not be allowed to enter additional emails (to eliminate cheating). Minimum 1 day."
+msgstr "Укажите количество дней, которое пользователь не сможет вводить email  (для устранения обмана). Минимум 1 день."
+# @ wow-marketing
+msgid "Style"
+msgstr "Стиль"
+# @ wow-marketing
+msgid "Style of the modal window"
+msgstr "Стиль модального окна"
+# @ wow-marketing
+msgid "Style settings"
+msgstr "Настройка стиля"
+# @ wow-marketing
+msgid "Text color"
+msgstr "Цвет текста"
+# @ wow-marketing
+msgid "Text from"
+msgstr "Текст от"
+# @ wow-marketing
+msgid "Textarea height"
+msgstr "Высота Textarea"
+# @ wow-marketing
+msgid "Thank you for signing up"
+msgstr "Спасибо за регистрацию"
+# @ wow-marketing
+msgid "The plugin contains"
+msgstr "Содержание плагина"
+# @ wow-marketing
+msgid "Title font size"
+msgstr "Размер шрифта заголовка"
+# @ wow-marketing
+msgid "Title text color"
+msgstr "Цвет текста заголовка"
+# @ wow-marketing
+msgid "Top position"
+msgstr "Позиционирование сверху"
+# @ wow-marketing
+msgid "Trigger settings"
+msgstr "Настройка целей"
+# @ wow-marketing
+msgid "Twitter share text"
+msgstr "Twitter текст поделиться"
+# @ wow-marketing
+msgid "Type"
+msgstr "Тип"
+# @ wow-marketing
+msgid "Type of delimeter"
+msgstr "Тип разделителя"
+# @ wow-marketing
+msgid "Viral Signup"
+msgstr "Вирусная подписка"
+# @ wow-marketing
+msgid "Width"
+msgstr "Ширина"
+# @ wow-marketing
+msgid "Year"
+msgstr "Год"
+# @ wow-marketing
+msgid "You can specify the slots that have already been 'taken', to demonstrate social proof"
+msgstr "Можно указать количество занятых мест, чтобы продемонстрировать социализацию"
+# @ wow-marketing
+msgid "Z-index"
+msgstr ""
+# @ wow-marketing
+msgid "Countdowns"
+msgstr "Счетчики"
+# @ wow-marketing
+msgid "To date"
+msgstr "К дате"
+# @ wow-marketing
+msgid "Time"
+msgstr "Время"
+# @ wow-marketing
+msgid "Time with cookies"
+msgstr "Время с куки"
+# @ wow-marketing
+msgid "Amount"
+msgstr "Счетчик"
+# @ wow-marketing
+msgid "Amount with cookies"
+msgstr "Счетчик с куки"
+# @ wow-marketing
+msgid "down"
+msgstr "вниз"
+# @ wow-marketing
+msgid "up"
+msgstr "вверх"
+# @ wow-marketing
+msgid "Direction"
+msgstr "Направление"
+# @ wow-marketing
+msgid "Starting number"
+msgstr "Начальное число"
+# @ wow-marketing
+msgid "End number"
+msgstr "Конечное число"
+# @ wow-marketing
+msgid "Time increment mode"
+msgstr "Временной режим прироста"
+# @ wow-marketing
+msgid "stable"
+msgstr "стабильный"
+# @ wow-marketing
+msgid "random"
+msgstr "произвольный"
+# @ wow-marketing
+msgid "Increment every"
+msgstr "Постоянное увеличение"
+# @ wow-marketing
+msgid "Increment min"
+msgstr "Минимальное увеличение"
+# @ wow-marketing
+msgid "Increment max"
+msgstr "Максимальное увеличение"
+# @ wow-marketing
+msgid "Amount increment mode"
+msgstr "Количественный режим прироста"
+# @ wow-marketing
+msgid "Amount min"
+msgstr "Минимальное количество"
+# @ wow-marketing
+msgid "Amount max"
+msgstr "Максимальное количество"
+# @ wow-marketing
+msgid "Trigger"
+msgstr "Цель"
+# @ wow-marketing
+msgid "no"
+msgstr "нет"
+# @ wow-marketing
+msgid "Show content"
+msgstr "Показать содержание"
+# @ wow-marketing
+msgid "Redirect"
+msgstr "Перенаправление"
+# @ wow-marketing
+msgid "Hide modal window"
+msgstr "Скрыть модальное окно"
+# @ wow-marketing
+msgid "Show block"
+msgstr "Показать блок"
+# @ wow-marketing
+msgid "Hide block"
+msgstr "Скрыть блок"
+# @ wow-marketing
+msgid "Type Selector"
+msgstr "Тип селектора"
+# @ wow-marketing
+msgid "Enter selector"
+msgstr "Введите селектор"
+# @ wow-marketing
+msgid "E.g."
+msgstr "Например,"
+# @ wow-marketing
+msgid "Preview"
+msgstr "Предпросмотр"
+# @ wow-marketing
+msgid "Save"
+msgstr "Сохранить"
+# @ wow-marketing
+msgid "Plugin License Options"
+msgstr ""
+# @ wow-marketing
+msgid "License Key"
+msgstr ""
+# @ wow-marketing
+msgid "Activate License "
+msgstr ""
+# @ wow-marketing
+msgid "List email"
+msgstr "Список email"
+# @ wow-marketing
+msgid "left"
+msgstr "слева"
+# @ wow-marketing
+msgid "center"
+msgstr "по центру"
+# @ wow-marketing
+msgid "right"
+msgstr "справа"
+# @ wow-marketing
+msgid "seconds"
+msgstr "секунд"
+# @ wow-marketing
+msgid "Fixed"
+msgstr "Фиксированое"
+# @ wow-marketing
+msgid "Absolute"
+msgstr "Абсолютное"
+# @ wow-marketing
+msgid "top"
+msgstr "сверху"
+# @ wow-marketing
+msgid "bottom"
+msgstr "снизу"
+# @ wow-marketing
+msgid "Enter IDs, separated by comma (e.g.: 930, 539, 850)"
+msgstr "Введите ID, разделяйте запятыми (например: 930, 539, 850)"
+# @ wow-marketing
+msgid "Where shortcode is inserted"
+msgstr "Где указан шорткод"
+# @ wow-marketing
+msgid "All posts and pages"
+msgstr "На всех страницах и записях"
+# @ wow-marketing
+msgid "All posts"
+msgstr "На всех записях"
+# @ wow-marketing
+msgid "All pages"
+msgstr "На всех страницах"
+# @ wow-marketing
+msgid "Posts with certain IDs"
+msgstr "На записях с ID"
+# @ wow-marketing
+msgid "Pages with certain IDs"
+msgstr "На всех страница с ID"
+# @ wow-marketing
+msgid "All posts. except..."
+msgstr "На всех записях, кроме..."
+# @ wow-marketing
+msgid "All pages, except..."
+msgstr "На всех страницах, кроме..."
+# @ wow-marketing
+msgid "When the page loads"
+msgstr "Когда страница загружена"
+# @ wow-marketing
+msgid "Click on a link (with id)"
+msgstr "Клик по ссылке (с id)"
+# @ wow-marketing
+msgid "When the window is scrolled"
+msgstr "При прокрутке страницы"
+# @ wow-marketing
+msgid "When the user tries to leave the page"
+msgstr "Когда пользователь покидает страницу"
+# @ wow-marketing
+msgid "Click on a link (with an #anchor link)"
+msgstr "Клик по ссылке (с анкором # )"
+# @ wow-marketing
+msgid "Add an <b>id='mwp-modal-id-X'</b> to the link, where X is the number of the modal window"
+msgstr "Добавьте <b>id='mwp-modal-id-X'</b> к ссылке, где X это номер модального окна"
+# @ wow-marketing
+msgid "Add an anchor to the link: <b>a href='#mwp-modal-id-X'</b>, where X is the number of the modal window"
+msgstr "Добавьте анкор к ссылке: <b>a href='#mwp-modal-id-X'</b> , где X это номер модального окна"
+# @ wow-marketing
+msgid "Menu Item"
+msgstr "Пункты меню"
+# @ wow-marketing
+msgid "link"
+msgstr "ссылка"
+# @ wow-marketing
+msgid "modal window"
+msgstr "модальное окно"
+# @ wow-marketing
+msgid "share"
+msgstr "поделиться"
+# @ wow-marketing
+msgid "print"
+msgstr "печать"
+# @ wow-marketing
+msgid "back-to-top"
+msgstr "наверх"
+# @ wow-marketing
+msgid "Modal window ID"
+msgstr "Модальное окно ID"
+# @ wow-marketing
+msgid "e.g."
+msgstr "например,"
+# @ wow-marketing
+msgid "Icon"
+msgstr "Иконка"
+# @ wow-marketing
+msgid "custom"
+msgstr "произвольная"
+# @ wow-marketing
+msgid "image link"
+msgstr "ссылка на картинку"
+# @ wow-marketing
+msgid "Show item"
+msgstr "Показать пункт"
+# @ wow-marketing
+msgid "Signed up users"
+msgstr "Подписчики"
+# @ wow-marketing
+msgid "limited signup + viral sharing"
+msgstr "ограниченая подписка + вирусное расшаривание"
+# @ wow-marketing
+msgid "limited signup"
+msgstr "ограниченая подписка"
+# @ wow-marketing
+msgid "simple signup + viral sharing"
+msgstr "простая подписка + вирусное расшаривание"
+# @ wow-marketing
+msgid "simple signup"
+msgstr "простая подписка"
+# @ wow-marketing
+msgid "Left"
+msgstr "слева"
+# @ wow-marketing
+msgid "Center"
+msgstr "по центру"
+# @ wow-marketing
+msgid "Right"
+msgstr "справа"
+# @ wow-marketing 
+msgid "yes" 
+msgstr "да"
+# @ wow-marketing 
+msgid "Want to know about updates to this plugin without having to log into your site every time? Want to know about other cool plugins we make? Want to get attractive DISCOUNTS for the premium extensions? Add your email and we'll add you to our very rare mail-outs." 
+msgstr "Хотите быть в курсе последних обновлений плагина, без необходимости посещения сайта? Хотите больше узнавать о других плагинах, которые мы создаем? Хотите получать привлекательные скидки на премиум плагины? Подпишитесь, и мы добавим вас в наш список друзей."
+# @ wow-marketing 
+msgid "Email Address" 
+msgstr "Email Почта "
+# @ wow-marketing 
+msgid "Sign Up" 
+msgstr "Подписаться"
+# @ wow-marketing 
+msgid "News" 
+msgstr "Новости"

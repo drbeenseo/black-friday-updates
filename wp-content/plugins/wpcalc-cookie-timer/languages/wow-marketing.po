@@ -1,0 +1,877 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wow_Marketing v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-07-05 20:11+0300\n"
+"Last-Translator: Wow-Company\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+# @ wow-marketing 
+msgid "Add email to the list"
+msgstr ""
+# @ wow-marketing 
+msgid "Add new"
+msgstr ""
+# @ wow-marketing 
+msgid "Alignment"
+msgstr ""
+# @ wow-marketing 
+msgid "Also enable closing on"
+msgstr ""
+# @ wow-marketing 
+msgid "Animated display"
+msgstr ""
+# @ wow-marketing 
+msgid "Animation duration"
+msgstr ""
+# @ wow-marketing 
+msgid "Auto-close modal window"
+msgstr ""
+# @ wow-marketing 
+msgid "Background color"
+msgstr ""
+# @ wow-marketing 
+msgid "Background hover color"
+msgstr ""
+# @ wow-marketing 
+msgid "Background image"
+msgstr ""
+# @ wow-marketing 
+msgid "Block user from singup"
+msgstr ""
+# @ wow-marketing 
+msgid "Border color"
+msgstr ""
+# @ wow-marketing 
+msgid "Border radius"
+msgstr ""
+# @ wow-marketing 
+msgid "Border width"
+msgstr ""
+# @ wow-marketing 
+msgid "Bottom position"
+msgstr ""
+# @ wow-marketing 
+msgid "Button background color"
+msgstr ""
+# @ wow-marketing 
+msgid "Button background hover color"
+msgstr ""
+# @ wow-marketing 
+msgid "Button color"
+msgstr ""
+# @ wow-marketing 
+msgid "Button disabled color"
+msgstr ""
+# @ wow-marketing 
+msgid "Button hover color"
+msgstr ""
+# @ wow-marketing 
+msgid "Button position"
+msgstr ""
+# @ wow-marketing 
+msgid "Button text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Button text size"
+msgstr ""
+# @ wow-marketing 
+msgid "Button text"
+msgstr ""
+# @ wow-marketing 
+msgid "Button width"
+msgstr ""
+# @ wow-marketing 
+msgid "Button's text"
+msgstr ""
+# @ wow-marketing 
+msgid "Button's width"
+msgstr ""
+# @ wow-marketing 
+msgid "Call to share text"
+msgstr ""
+# @ wow-marketing 
+msgid "Check out awesome wordpress plugins by DayesDesign at http//wow-marketing.com/"
+msgstr ""
+# @ wow-marketing 
+msgid "Close Button"
+msgstr ""
+# @ wow-marketing 
+msgid "Close confirmation text after sending in"
+msgstr ""
+# @ wow-marketing 
+msgid "Color"
+msgstr ""
+# @ wow-marketing 
+msgid "Comment field"
+msgstr ""
+# @ wow-marketing 
+msgid "Confirmation first text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Confirmation first text size"
+msgstr ""
+# @ wow-marketing 
+msgid "Confirmation second text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Confirmation second text size"
+msgstr ""
+# @ wow-marketing 
+msgid "Confirmation text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Confirmation text size"
+msgstr ""
+# @ wow-marketing 
+msgid "Confirmation text"
+msgstr ""
+# @ wow-marketing 
+msgid "Content"
+msgstr ""
+# @ wow-marketing 
+msgid "Content"
+msgstr ""
+# @ wow-marketing 
+msgid "Countdown"
+msgstr ""
+# @ wow-marketing 
+msgid "Countdown height"
+msgstr ""
+# @ wow-marketing 
+msgid "Countdown settings"
+msgstr ""
+# @ wow-marketing 
+msgid "Countdown type"
+msgstr ""
+# @ wow-marketing 
+msgid "Countdown width"
+msgstr ""
+# @ wow-marketing 
+msgid "Day"
+msgstr ""
+# @ wow-marketing 
+msgid "days"
+msgstr ""
+# @ wow-marketing 
+msgid "Delay"
+msgstr ""
+# @ wow-marketing 
+msgid "Delete"
+msgstr ""
+# @ wow-marketing 
+msgid "Delimiter font size"
+msgstr ""
+# @ wow-marketing 
+msgid "Delimiter text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Digits text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Display"
+msgstr ""
+# @ wow-marketing 
+msgid "Display an e-mail form"
+msgstr ""
+# @ wow-marketing 
+msgid "Display button"
+msgstr ""
+# @ wow-marketing 
+msgid "Don’t show on screens less than"
+msgstr ""
+# @ wow-marketing 
+msgid "Duplicate"
+msgstr ""
+# @ wow-marketing 
+msgid "Edit"
+msgstr ""
+# @ wow-marketing 
+msgid "Email field"
+msgstr ""
+# @ wow-marketing 
+msgid "Email from"
+msgstr ""
+# @ wow-marketing 
+msgid "Email settings"
+msgstr ""
+# @ wow-marketing 
+msgid "Email settings to user"
+msgstr ""
+# @ wow-marketing 
+msgid "Emails"
+msgstr ""
+# @ wow-marketing 
+msgid "Enable FB custom share text"
+msgstr ""
+# @ wow-marketing 
+msgid "Error text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Error text size"
+msgstr ""
+# @ wow-marketing 
+msgid "Error text"
+msgstr ""
+# @ wow-marketing 
+msgid "Example #anchor-link"
+msgstr ""
+# @ wow-marketing 
+msgid "Facebook app id"
+msgstr ""
+# @ wow-marketing 
+msgid "Facebook share text"
+msgstr ""
+# @ wow-marketing 
+msgid "Facebook sharing"
+msgstr ""
+# @ wow-marketing 
+msgid "Facebook uses your site's regular metadata or facebook specific metadata"
+msgstr ""
+# @ wow-marketing 
+msgid "First text color"
+msgstr ""
+# @ wow-marketing 
+msgid "First text size"
+msgstr ""
+# @ wow-marketing 
+msgid "First text"
+msgstr ""
+# @ wow-marketing 
+msgid "Font size"
+msgstr ""
+# @ wow-marketing 
+msgid "Form align"
+msgstr ""
+# @ wow-marketing 
+msgid "Form background color"
+msgstr ""
+# @ wow-marketing 
+msgid "Form margin bottom"
+msgstr ""
+# @ wow-marketing 
+msgid "Form margin left"
+msgstr ""
+# @ wow-marketing 
+msgid "Form margin right"
+msgstr ""
+# @ wow-marketing 
+msgid "Form margin top"
+msgstr ""
+# @ wow-marketing 
+msgid "Form padding bottom"
+msgstr ""
+# @ wow-marketing 
+msgid "Form padding left"
+msgstr ""
+# @ wow-marketing 
+msgid "Form padding right"
+msgstr ""
+# @ wow-marketing 
+msgid "Form padding top"
+msgstr ""
+# @ wow-marketing 
+msgid "Form width"
+msgstr ""
+# @ wow-marketing 
+msgid "Forms"
+msgstr ""
+# @ wow-marketing 
+msgid "Form's field background color"
+msgstr ""
+# @ wow-marketing 
+msgid "Form's field border color"
+msgstr ""
+# @ wow-marketing 
+msgid "Form's field border radius"
+msgstr ""
+# @ wow-marketing 
+msgid "Form's field border"
+msgstr ""
+# @ wow-marketing 
+msgid "Get PRO version!"
+msgstr ""
+# @ wow-marketing 
+msgid "Goal-completed users"
+msgstr ""
+# @ wow-marketing 
+msgid "Guess what? Great news! We will give away a lifetime premium account to those who bring 3 friends to sign up!"
+msgstr ""
+# @ wow-marketing 
+msgid "Height"
+msgstr ""
+# @ wow-marketing 
+msgid "Hide days"
+msgstr ""
+# @ wow-marketing 
+msgid "Hide hours"
+msgstr ""
+# @ wow-marketing 
+msgid "Hide minutes"
+msgstr ""
+# @ wow-marketing 
+msgid "Hide seconds"
+msgstr ""
+# @ wow-marketing 
+msgid "How many triggers you want"
+msgstr ""
+# @ wow-marketing 
+msgid "Icon color"
+msgstr ""
+# @ wow-marketing 
+msgid "Icon height"
+msgstr ""
+# @ wow-marketing 
+msgid "Icon custom"
+msgstr ""
+# @ wow-marketing 
+msgid "If you want to use a custom text, you can enable it, and you will need to setup a FB app with your link and specify the App ID below. See instructions"
+msgstr ""
+# @ wow-marketing 
+msgid "Input height"
+msgstr ""
+# @ wow-marketing 
+msgid "Invites taken"
+msgstr ""
+# @ wow-marketing 
+msgid "Item position"
+msgstr ""
+# @ wow-marketing 
+msgid "Item type"
+msgstr ""
+# @ wow-marketing 
+msgid "Item width"
+msgstr ""
+# @ wow-marketing 
+msgid "Lead directly to the form"
+msgstr ""
+# @ wow-marketing 
+msgid "Learn more about PRO version features"
+msgstr ""
+# @ wow-marketing 
+msgid "Left position"
+msgstr ""
+# @ wow-marketing 
+msgid "License"
+msgstr ""
+# @ wow-marketing 
+msgid "Link text size"
+msgstr ""
+# @ wow-marketing 
+msgid "Link"
+msgstr ""
+# @ wow-marketing 
+msgid "List"
+msgstr ""
+# @ wow-marketing 
+msgid "Mail subject"
+msgstr ""
+# @ wow-marketing 
+msgid "Make sure to set modal window to 'Click on a link or button' and 'All posts and pages'"
+msgstr ""
+# @ wow-marketing 
+msgid "Modal Windows"
+msgstr ""
+# @ wow-marketing 
+msgid "Month"
+msgstr ""
+# @ wow-marketing 
+msgid "ms"
+msgstr ""
+# @ wow-marketing 
+msgid "Name"
+msgstr ""
+# @ wow-marketing 
+msgid "Name field"
+msgstr ""
+# @ wow-marketing 
+msgid "Name"
+msgstr ""
+# @ wow-marketing 
+msgid "Number font size"
+msgstr ""
+# @ wow-marketing 
+msgid "Number of invites"
+msgstr ""
+# @ wow-marketing 
+msgid "Open in a new window"
+msgstr ""
+# @ wow-marketing 
+msgid "Order"
+msgstr ""
+# @ wow-marketing 
+msgid "Overlay Esc"
+msgstr ""
+# @ wow-marketing 
+msgid "Overlay"
+msgstr ""
+# @ wow-marketing 
+msgid "p"
+msgstr ""
+# @ wow-marketing 
+msgid "Padding bottom"
+msgstr ""
+# @ wow-marketing 
+msgid "Padding left & right"
+msgstr ""
+# @ wow-marketing 
+msgid "Padding left"
+msgstr ""
+# @ wow-marketing 
+msgid "Padding right"
+msgstr ""
+# @ wow-marketing 
+msgid "Padding top & bottom"
+msgstr ""
+# @ wow-marketing 
+msgid "Padding top"
+msgstr ""
+# @ wow-marketing 
+msgid "Padding"
+msgstr ""
+# @ wow-marketing 
+msgid "Phone field"
+msgstr ""
+# @ wow-marketing 
+msgid "Placeholder text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Position"
+msgstr ""
+# @ wow-marketing 
+msgid "PRO Version"
+msgstr ""
+# @ wow-marketing 
+msgid "Referrals required"
+msgstr ""
+# @ wow-marketing 
+msgid "Reset in"
+msgstr ""
+# @ wow-marketing 
+msgid "Right position"
+msgstr ""
+# @ wow-marketing 
+msgid "Second text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Second text size"
+msgstr ""
+# @ wow-marketing 
+msgid "Second text"
+msgstr ""
+# @ wow-marketing 
+msgid "Select a type"
+msgstr ""
+# @ wow-marketing 
+msgid "Send mail to admin"
+msgstr ""
+# @ wow-marketing 
+msgid "Send mail to user"
+msgstr ""
+# @ wow-marketing 
+msgid "Send to"
+msgstr ""
+# @ wow-marketing 
+msgid "Share link"
+msgstr ""
+# @ wow-marketing 
+msgid "Sharing"
+msgstr ""
+# @ wow-marketing 
+msgid "Shortcode"
+msgstr ""
+# @ wow-marketing 
+msgid "Show a modal window"
+msgstr ""
+# @ wow-marketing 
+msgid "Show button for modal window"
+msgstr ""
+# @ wow-marketing 
+msgid "Show modal window"
+msgstr ""
+# @ wow-marketing 
+msgid "Show modal window"
+msgstr ""
+# @ wow-marketing 
+msgid "Show only once? (use cookies)"
+msgstr ""
+# @ wow-marketing 
+msgid "Show settings"
+msgstr ""
+# @ wow-marketing 
+msgid "Show title for Days"
+msgstr ""
+# @ wow-marketing 
+msgid "Show title for Hours"
+msgstr ""
+# @ wow-marketing 
+msgid "Show title for Minutes"
+msgstr ""
+# @ wow-marketing 
+msgid "Show title for Seconds"
+msgstr ""
+# @ wow-marketing 
+msgid "Side Menu"
+msgstr ""
+# @ wow-marketing 
+msgid "Signed up users "
+msgstr ""
+# @ wow-marketing 
+msgid "Signup"
+msgstr ""
+# @ wow-marketing 
+msgid "Size"
+msgstr ""
+# @ wow-marketing 
+msgid "Social Networks"
+msgstr ""
+# @ wow-marketing 
+msgid "Specify anchor (Optional)"
+msgstr ""
+# @ wow-marketing 
+msgid "Specify the amount of days the user will not be allowed to enter additional emails (to eliminate cheating). Minimum 1 day."
+msgstr ""
+# @ wow-marketing 
+msgid "Style"
+msgstr ""
+# @ wow-marketing 
+msgid "Style of the modal window"
+msgstr ""
+# @ wow-marketing 
+msgid "Style settings"
+msgstr ""
+# @ wow-marketing 
+msgid "Text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Text from"
+msgstr ""
+# @ wow-marketing 
+msgid "Textarea height"
+msgstr ""
+# @ wow-marketing 
+msgid "Thank you for signing up"
+msgstr ""
+# @ wow-marketing 
+msgid "The plugin contains"
+msgstr ""
+# @ wow-marketing 
+msgid "Title font size"
+msgstr ""
+# @ wow-marketing 
+msgid "Title text color"
+msgstr ""
+# @ wow-marketing 
+msgid "Top position"
+msgstr ""
+# @ wow-marketing 
+msgid "Trigger settings"
+msgstr ""
+# @ wow-marketing 
+msgid "Twitter share text"
+msgstr ""
+# @ wow-marketing 
+msgid "Type"
+msgstr ""
+# @ wow-marketing 
+msgid "Type of delimeter"
+msgstr ""
+# @ wow-marketing 
+msgid "Viral Signup"
+msgstr ""
+# @ wow-marketing 
+msgid "Width"
+msgstr ""
+# @ wow-marketing 
+msgid "Year"
+msgstr ""
+# @ wow-marketing 
+msgid "You can specify the slots that have already been 'taken', to demonstrate social proof"
+msgstr ""
+# @ wow-marketing 
+msgid "Z-index"
+msgstr ""
+# @ wow-marketing 
+msgid "Countdowns" 
+msgstr ""
+# @ wow-marketing 
+msgid "Day" 
+msgstr ""
+# @ wow-marketing 
+msgid "To date" 
+msgstr ""
+# @ wow-marketing 
+msgid "Time" 
+msgstr ""
+# @ wow-marketing 
+msgid "Time with cookies" 
+msgstr ""
+# @ wow-marketing 
+msgid "Amount" 
+msgstr ""
+# @ wow-marketing 
+msgid "Amount with cookies" 
+msgstr ""
+# @ wow-marketing 
+msgid "down" 
+msgstr ""
+# @ wow-marketing 
+msgid "up" 
+msgstr ""
+# @ wow-marketing 
+msgid "Direction" 
+msgstr ""
+# @ wow-marketing 
+msgid "Starting number" 
+msgstr ""
+# @ wow-marketing 
+msgid "" 
+msgstr ""
+# @ wow-marketing 
+msgid "End number" 
+msgstr ""
+# @ wow-marketing 
+msgid "Time increment mode" 
+msgstr ""
+# @ wow-marketing 
+msgid "stable" 
+msgstr ""
+# @ wow-marketing 
+msgid "random" 
+msgstr ""
+# @ wow-marketing 
+msgid "Increment every" 
+msgstr ""
+# @ wow-marketing 
+msgid "Increment min" 
+msgstr ""
+# @ wow-marketing 
+msgid "Increment max" 
+msgstr ""
+# @ wow-marketing 
+msgid "Amount increment mode" 
+msgstr ""
+# @ wow-marketing 
+msgid "Amount" 
+msgstr ""
+# @ wow-marketing 
+msgid "Amount min" 
+msgstr ""
+# @ wow-marketing 
+msgid "Amount max" 
+msgstr ""
+# @ wow-marketing 
+msgid "Trigger" 
+msgstr ""
+# @ wow-marketing 
+msgid "no" 
+msgstr ""
+# @ wow-marketing 
+msgid "Show content" 
+msgstr ""
+# @ wow-marketing 
+msgid "Redirect" 
+msgstr ""
+# @ wow-marketing 
+msgid "Show modal window" 
+msgstr ""
+# @ wow-marketing 
+msgid "Hide modal window" 
+msgstr ""
+# @ wow-marketing 
+msgid "Show block" 
+msgstr ""
+# @ wow-marketing 
+msgid "Hide block" 
+msgstr ""
+# @ wow-marketing 
+msgid "Modal window ID" 
+msgstr ""
+# @ wow-marketing 
+msgid "Type Selector" 
+msgstr ""
+# @ wow-marketing 
+msgid "Enter selector" 
+msgstr ""
+# @ wow-marketing 
+msgid "E.g." 
+msgstr ""
+# @ wow-marketing 
+msgid "Preview" 
+msgstr ""
+# @ wow-marketing 
+msgid "Save" 
+msgstr ""
+# @ wow-marketing 
+msgid "Plugin License Options" 
+msgstr ""
+# @ wow-marketing 
+msgid "License Key" 
+msgstr ""
+# @ wow-marketing 
+msgid "Activate License " 
+msgstr ""
+# @ wow-marketing 
+msgid "List email" 
+msgstr ""
+# @ wow-marketing 
+msgid "left" 
+msgstr ""
+# @ wow-marketing 
+msgid "center" 
+msgstr ""
+# @ wow-marketing 
+msgid "right" 
+msgstr ""
+# @ wow-marketing 
+msgid "seconds" 
+msgstr ""
+# @ wow-marketing 
+msgid "Fixed" 
+msgstr ""
+# @ wow-marketing 
+msgid "Absolute" 
+msgstr ""
+# @ wow-marketing 
+msgid "top" 
+msgstr ""
+# @ wow-marketing 
+msgid "bottom" 
+msgstr ""
+# @ wow-marketing 
+msgid "Enter IDs, separated by comma (e.g.: 930, 539, 850)" 
+msgstr ""
+# @ wow-marketing 
+msgid "Where shortcode is inserted" 
+msgstr ""
+# @ wow-marketing 
+msgid "All posts and pages" 
+msgstr ""
+# @ wow-marketing 
+msgid "All posts" 
+msgstr ""
+# @ wow-marketing 
+msgid "All pages" 
+msgstr ""
+# @ wow-marketing 
+msgid "Posts with certain IDs" 
+msgstr ""
+# @ wow-marketing 
+msgid "Pages with certain IDs" 
+msgstr ""
+# @ wow-marketing 
+msgid "All posts. except..." 
+msgstr ""
+# @ wow-marketing 
+msgid "All pages, except..." 
+msgstr ""
+# @ wow-marketing 
+msgid "When the page loads" 
+msgstr ""
+# @ wow-marketing 
+msgid "Click on a link (with id)" 
+msgstr ""
+# @ wow-marketing 
+msgid "When the window is scrolled" 
+msgstr ""
+# @ wow-marketing 
+msgid "When the user tries to leave the page" 
+msgstr ""
+# @ wow-marketing 
+msgid "Click on a link (with an #anchor link)" 
+msgstr ""
+# @ wow-marketing 
+msgid "Add an <b>id='mwp-modal-id-X'</b> to the link, where X is the number of the modal window" 
+msgstr ""
+# @ wow-marketing 
+msgid "Add an anchor to the link: <b>a href='#mwp-modal-id-X'</b>, where X is the number of the modal window" 
+msgstr ""
+# @ wow-marketing 
+msgid "Menu Item" 
+msgstr ""
+# @ wow-marketing 
+msgid "link" 
+msgstr ""
+# @ wow-marketing 
+msgid "modal window" 
+msgstr ""
+# @ wow-marketing 
+msgid "share" 
+msgstr ""
+# @ wow-marketing 
+msgid "print" 
+msgstr ""
+# @ wow-marketing 
+msgid "back-to-top" 
+msgstr ""
+# @ wow-marketing 
+msgid "Open in a new window" 
+msgstr ""
+# @ wow-marketing 
+msgid "Modal window ID" 
+msgstr ""
+# @ wow-marketing 
+msgid "e.g." 
+msgstr ""
+# @ wow-marketing 
+msgid "Icon" 
+msgstr ""
+# @ wow-marketing 
+msgid "custom" 
+msgstr ""
+# @ wow-marketing 
+msgid "image link" 
+msgstr ""
+# @ wow-marketing 
+msgid "Show item" 
+msgstr ""
+# @ wow-marketing 
+msgid "Signed up users" 
+msgstr ""
+# @ wow-marketing 
+msgid "limited signup + viral sharing" 
+msgstr ""
+# @ wow-marketing 
+msgid "limited signup" 
+msgstr ""
+# @ wow-marketing 
+msgid "simple signup + viral sharing" 
+msgstr ""
+# @ wow-marketing 
+msgid "simple signup" 
+msgstr ""
+# @ wow-marketing 
+msgid "Left" 
+msgstr ""
+# @ wow-marketing 
+msgid "Center" 
+msgstr ""
+# @ wow-marketing 
+msgid "Right" 
+msgstr ""
+# @ wow-marketing 
+msgid "yes" 
+msgstr ""
+# @ wow-marketing 
+msgid "Want to know about updates to this plugin without having to log into your site every time? Want to know about other cool plugins we make? Want to get attractive DISCOUNTS for the premium extensions? Add your email and we'll add you to our very rare mail-outs." 
+msgstr ""
+# @ wow-marketing 
+msgid "Email Address" 
+msgstr ""
+# @ wow-marketing 
+msgid "Sign Up" 
+msgstr ""
+# @ wow-marketing 
+msgid "News" 
+msgstr ""

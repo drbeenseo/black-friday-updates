@@ -1,0 +1,386 @@
+@media screen and (max-width:1680px) {
+}
+@media screen and (max-width:1600px) {
+}
+@media screen and (max-width:1440px) {
+}
+@media screen and (max-width:1366px) {
+}
+@media screen and (max-width:1280px) {
+	.pricing_section .container { width:1200px;}
+	.pricing_section .price_right .pr_block.pr_block2 { margin-left:20px;}
+	.pricing_section .pricing_left { width:500px;}
+}
+@media (min-width:992px) and (max-width:1199px) {
+	.container, .pricing_section .container {width: 970px;}
+	.header_section .logo img {
+		width: 200px;
+	}
+	.header_section .hdr_btn a { padding:12px 20px;}
+	.header_section .top_menu ul li { margin:0 15px;}
+	.header_section .top_menu { margin-top:20px;}
+	.banner_section { padding:50px 0 110px;}
+	.banner_section .bnr_left h2 { font-size:84px; line-height:92px;}
+	.banner_section .bnr_left h3 { font-size:40px; line-height:40px;}
+	.banner_section .bnr_left h4 { font-size:26px; line-height:34px;}
+	.banner_section .bnr_left .bnr_btn a { padding:15px 30px; font-size:18px;}
+	.video_section { height:400px;}
+	.pricing_section { padding:30px 0 40px;}
+	.pricing_section .pricing_left h2 { font-size:42px;}
+	.pricing_section .pricing_left { width:400px;}
+	.pricing_section .price_right { width:550px;}
+	.pricing_section .price_right .pr_block { width:49%;}
+	.pricing_section .price_right .pr_block.pr_block2 { margin-left:2%;}
+	.pricing_section .price_right .pr_block h4 { font-size:22px;}
+	.pricing_section .price_right .pr_block h3 { font-size:60px;}
+	.pricing_section .price_right .pr_block .bym_btn a { padding:12px 15px 14px; font-size:17px;}
+	.pricing_section .pricing_left .sff_btn a { padding:13px 20px;}
+	.founder_section .fs_left { width:400px;}
+	.founder_section .fs_right { width:530px; margin-top:25px;}
+	.founder_section .fs_right p { line-height:30px;}
+	.founder_section .fs_right .ctl_btn a { padding:16px 25px; font-size:18px;}
+	.instructors_section { padding:30px 0 72px;}
+	.instructors_section .ins_left h2 { font-size:29px;}
+	.instructors_section .ins_left h4 { font-size:20px;}
+	.instructors_section .ins_left { width:290px; margin-top:100px;}
+	.instructors_section .ins_left .num_block .num_item h3 { font-size:32px;}
+	.instructors_section .ins_left .num_block .num_item:nth-child(2n+0) { padding-left:20px;}
+	.instructors_section .ins_left .num_block .num_item p { font-size:20px;}
+	.instructors_section .ins_left .lm_btn a { font-size:18px; padding:15px 30px;}
+	.reviews_section .reviews_slider .review_item { padding:73px 15px 30px;}
+	.reviews_section .reviews_slider .review_item p { font-size:15px; line-height:22px; min-height:176px;}
+	.reviews_section .reviews_slider .review_item h3 { font-size:18px;}
+	.footer_section .fmid .fmid_block.fmid_block1 { margin-right:30px;}
+	.footer_section .fmid .fmid_block.fmid_block2 { margin-right:90px;}
+	.footer_section .fmid .fmid_block.fmid_block3 { margin-right:90px;}
+	.instructors_section .ins_right .ins_item p { font-size:16px;}
+	.header_section.fixed-header .hdr_btn {
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width:991px) {
+	.container, .pricing_section .container {width: 720px;}
+	.mobinav { display:block;}
+	.header_section { padding:10px 0;}
+	.header_section .top_menu {height: 100%;width: 250px;position: fixed;right: -250px;top: 0;background-color: #00bde3;z-index: 9; padding:0; margin:0; overflow-y:auto; transition: all .5s ease;}
+	.header_section .top_menu.open { right:0;}
+	.header_section .top_menu:before { display:none;}
+	.header_section .top_menu ul {width:100%; float:left;margin-left:0;margin-bottom:0; padding:0 20px;}
+	.header_section .top_menu ul li ul li:hover a { background-color:transparent;}
+	.header_section .top_menu ul li { width:100%;border-bottom:1px solid #fff; text-align:left; margin:0; padding:10px 0;}
+	.header_section .top_menu ul li:last-child { border-bottom:0;}
+	.header_section .top_menu ul li a {color: #fff;text-align: left;font-size: 18px;margin:0; border-bottom:0; padding:10px 0; width:100%; text-transform:capitalize;}
+	.header_section .top_menu ul li a:hover, .header_section .top_menu ul li:hover a { color:#fff;}
+	.header_section .top_menu ul li ul { position:inherit; left:inherit; top:inherit; display:block; width:100%; margin:0; padding:0;}
+	.navclsbtn { display:block;}
+	.header_section .top_menu .container { width:100%; padding:0;}
+	.header_section .top_menu ul li > a:hover, .header_section .top_menu ul li.current-menu-item > a, .header_section .top_menu ul li ul li a:hover, .header_section .top_menu ul li ul li.current-menu-item a { background-color:transparent}
+	.header_section .top_menu ul li ul { background-color:transparent; padding:10px 10px 0;}
+	.header_section .top_menu ul li ul li a { padding:0;}
+	.header_section .top_menu ul li ul li { margin:0 0 10px;}
+	.header_section .top_menu ul li ul li:first-child { background-image:none;}
+	.header_section .hdr_btn a { padding:10px 20px 11px;}
+	.header_section .hdr_btn { margin-top:18px;}
+	.banner_section { padding:40px 0 90px;}
+	.banner_section .bnr_left h4 { font-size:24px; line-height:32px;}
+	.banner_section .bnr_left h2 { font-size:72px; line-height:72px; letter-spacing:10px;}
+	.banner_section .bnr_left h3 { font-size:37px; line-height:37px; letter-spacing:6px;}
+	.banner_section .bnr_left .bnr_btn a { padding:15px 20px; font-size:16px;}
+	.learners_section h2 { font-size:36px; margin-bottom:30px;}
+	
+	.learners_section .ls_circle { width:100%; height:auto; background-image:none; margin-bottom:50px;}
+	.learners_section .ls_circle .lsc_logo { position:relative; width:100%; height:120px; background-color:#fff; -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+-moz-box-shadow:    0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+box-shadow:         0px 2px 10px 0px rgba(0, 0, 0, 0.08);}
+	.learners_section .ls_circle .lsc_logo.lsc_logo1,
+	.learners_section .ls_circle .lsc_logo.lsc_logo2,
+	.learners_section .ls_circle .lsc_logo.lsc_logo3,
+	.learners_section .ls_circle .lsc_logo.lsc_logo4,
+	.learners_section .ls_circle .lsc_logo.lsc_logo5,
+	.learners_section .ls_circle .lsc_logo.lsc_logo6,
+	.learners_section .ls_circle .lsc_logo.lsc_logo7,
+	.learners_section .ls_circle .lsc_logo.lsc_logo8,
+	.learners_section .ls_circle .lsc_logo.lsc_logo9 { left:inherit; top:inherit; right:inherit; bottom:inherit; margin:0;}
+	.learners_section .ls_circle .lsc_logo img { width:auto; position:absolute; top:0; left:0; right:0; bottom:0; margin:auto; max-width:80%; max-height:90%;}
+	.learners_section .owl-item { padding:10px;}
+	.numbers_section .ns_item { width:33.33%;}
+	.numbers_section .ns_item:nth-child(4n+0) { border-right:1px solid #d9f5fd;}
+	.numbers_section .ns_item:nth-child(3n+0) { border-right:0;}
+	.numbers_section .ns_item:nth-child(5), .numbers_section .ns_item:nth-child(6) {border-bottom:1px solid #d9f5fd;}
+	.numbers_section .ns_item:nth-child(4):after,
+	.numbers_section .ns_item:nth-child(5):after { display:block;}
+	.numbers_section .ns_item:nth-child(3):after { display:none;}
+	.numbers_section .ns_item h4 { font-size:50px; letter-spacing:3px;}
+	.numbers_section .ns_item p { font-size:16px;}
+	.numbers_section .ns_item .nsi_inner { padding:20px 0 30px;}
+	.numbers_section { margin-bottom:60px;}
+	.learners_section .stn_btn a { padding:15px 26px 18px;}
+	.learners_section { padding:240px 0 50px;}
+	.video_section { height:350px;}
+	.video_section a { background-size:cover; width:70px; height:70px;}
+	.pricing_section { padding:30px 0 50px;}
+	.pricing_section .pricing_left { width:100%;}
+	.pricing_section .pricing_left h2 { font-size:40px;}
+	.pricing_section .pricing_left .sff_btn a { padding:13px 20px;}
+	.pricing_section .price_right { width:100%;}
+	.pricing_section .price_right .pr_block, .pricing_section .price_right .pr_block.pr_block2 { width: 46%; margin: 2%;}
+	.founder_section .fs_left { width:100%; text-align:center;}
+	.founder_section .fs_right { width:100%; margin-top:40px;}
+	.founder_section .fs_right h2 { font-size:36px;}
+	.founder_section .fs_right h5 { font-size:22px; margin-bottom:15px;}
+	.founder_section .fs_right p { line-height:28px;}
+	.founder_section .fs_right .ctl_btn a { padding:13px 20px 15px; font-size:17px;}
+	.pricing_section .price_right .pr_block .bym_btn a { padding:12px 15px 15px; font-size:17px;}
+	.pricing_section .price_right .pr_block h4 { font-size:22px;}
+	.founder_section { padding:50px 0; background-image:none;}
+	.instructors_section { padding:30px 0 72px;}
+	.instructors_section .ins_left { width:100%; margin-top:0;}
+	.instructors_section .ins_left h2 { font-size:36px;}
+	.instructors_section .ins_left h4 { font-size:22px; margin-bottom:30px;}
+	.instructors_section .ins_left .num_block .num_item { padding-top:20px;}
+	.instructors_section .ins_left .lm_btn a { padding:11px 20px 12px; font-size:16px;}
+	.instructors_section .ins_left { margin-bottom:50px;}
+	
+	.instructors_section .ins_right .ins_item { position:relative;}
+	.instructors_section .ins_right .ins_item.ins_item1,
+	.instructors_section .ins_right .ins_item.ins_item2,
+	.instructors_section .ins_right .ins_item.ins_item3,
+	.instructors_section .ins_right .ins_item.ins_item4 { top:inherit; bottom:inherit; left:inherit; right:inherit; width:100%;}
+	.instructors_section .ins_right .ins_item img { width:auto; display:inline-block;}
+	.instructors_section .ins_right .ins_item.ins_item2 p, .instructors_section .ins_right .ins_item.ins_item4 p { padding:0; text-align:center;}
+	.instructors_section .ins_right { width:100%; height:auto; background-image:none;}
+	.instructors_section .ins_right .ins_item.ins_item1 p { position:inherit; left:inherit; top:inherit;}
+	.instructors_section .ins_right .ins_item.ins_item1 { padding-top:0;}
+	.instructors_section .ins_right .ins_item.ins_item1 h4 { top:90px; width:auto;}
+	.instructors_section .ins_right .ins_item h4 { -webkit-box-shadow: 0px 1px 7px 0px rgba(56, 52, 68, 0.19); -moz-box-shadow: 0px 1px 7px 0px rgba(56, 52, 68, 0.19); box-shadow: 0px 1px 7px 0px rgba(56, 52, 68, 0.19);}
+	.instructors_section .ins_right .ins_item.ins_item2 h4, .instructors_section .ins_right .ins_item.ins_item3 h4, .instructors_section .ins_right .ins_item.ins_item4 h4 { width:auto;}
+	.instructors_section .ins_right .owl-item { padding:0 10px;}
+	.instructors_section .ins_right .ins_item p { font-size:16px; line-height:22px;}
+	.reviews_section h4 { font-size:22px;}
+	.reviews_section h2 { font-size:42px;}
+	.reviews_section .reviews_slider .review_item { padding:70px 20px 30px;}
+	.reviews_section .reviews_slider .review_item p { font-size:15px; min-height:144px;}
+	.reviews_section .reviews_slider .review_item h3 { font-size:18px;}
+	.footer_section .flogo { float:none; text-align:center; margin-bottom:20px;}
+	.footer_section .fmid .fmid_block.fmid_block1,
+	.footer_section .fmid .fmid_block.fmid_block2,
+	.footer_section .fmid .fmid_block.fmid_block3,
+	.footer_section .fmid .fmid_block.fmid_block4 { width:50%; margin-right:0; margin-bottom:30px;}
+	.footer_section .fmid .fmid_block.fmid_block3 { clear:left;}
+	.footer_section .fmid { padding:30px 0 0;}
+	.header_section.fixed-header .hdr_btn {
+		margin-top: 13px;
+	}
+	.header_section.fixed-header .mobinav { top:32px;}
+}
+@media screen and (max-width:767px) {
+	.container, .pricing_section .container {width: 100%; float:left; padding:0 15px;}
+	.header_section .hdr_btn { margin-right:65px;}
+	.banner_section .bnr_left h2 {
+		font-size: 64px;
+		line-height: 64px;
+		letter-spacing: 5px;
+	}
+	.banner_section .bnr_left h3 {
+		font-size: 32px;
+		line-height: 32px;
+		letter-spacing: 4px;
+		margin-bottom:20px;
+	}
+	.numbers_section {
+		margin-bottom: 40px;
+	}
+	.learners_section .stn_btn a {
+		padding: 13px 20px 15px;
+		font-size:16px;
+	}
+	.pricing_section .pricing_left h2 {
+		font-size: 34px;
+	}
+	.founder_section .fs_left img { width:350px;}
+	.founder_section .fs_right h2 {
+		font-size: 32px;
+	}
+	.founder_section .fs_right h5 { font-size:20px;}
+	.founder_section .fs_right .ctl_btn a { font-size:16px;}
+	.instructors_section .ins_left h2 {
+		font-size: 32px;
+	}
+	.instructors_section .ins_left h4 { font-size:20px;}
+	.instructors_section .ins_left .num_block .num_item:nth-child(2n+0) { padding-left:60px;}
+	.instructors_section .ins_left .lm_btn {
+		text-align: center;
+	}
+	.instructors_section .ins_left .lm_btn a { float:none; display:inline-block;}
+	.instructors_section { padding-bottom:50px;}
+	.reviews_section { padding:40px 0;}
+	.reviews_section h4 { font-size:20px;}
+	.reviews_section h2 { font-size:36px;}
+	.popup_form_outer { position:absolute;}
+	.popup_form {
+		width: 90%;
+		padding-left:15px;
+		padding-right:15px;
+		padding-bottom:15px;
+	}
+	.popup_form ul li { font-size:15px; margin-bottom:5px; line-height:24px;}
+	.popup_form ul li:after { top:7px;}
+}
+@media screen and (max-width:667px) {
+	.learners_section h2 { margin-bottom:20px;}
+	.numbers_section .ns_item h4 { font-size:40px;}
+	.numbers_section .ns_item p { letter-spacing:1px;}
+	.learners_section { padding-bottom:40px;}
+	.video_section {
+		height: 300px;
+	}
+	.pricing_section .pricing_left h2 { margin-bottom:15px;}
+	.pricing_section .price_right .pr_block, .pricing_section .price_right .pr_block.pr_block2 { width:350px; margin:0 auto 40px; float:none;}
+	.pricing_section { padding-bottom:10px;}
+	.footer_section .ns_block { float:none;}
+	.footer_section .ns_block .ns_form input[type="text"] { width:100%;}
+	.footer_section .ns_block .ns_form { width:100%;}
+	.footer_section .ns_block label { margin:0 0 15px;}
+	.footer_section .ns_block .ns_form input[type="text"] { height:50px; line-height:50px;}
+	.footer_section .ns_block .ns_form input[type="submit"] { line-height:50px; padding:0 30px; border-radius:25px;}
+}
+@media screen and (max-width:640px) {
+	.learners_section h2 { font-size:30px;}
+	.pricing_section .pricing_left h2 { font-size:30px;}
+	.pricing_section .pricing_left ul li { font-size:15px; padding-bottom:4px;}
+	.founder_section .fs_right h2 {
+		font-size: 28px;
+	}
+	.founder_section .fs_right h5 {
+		font-size: 18px;
+	}
+	.founder_section .fs_right p { font-size:15px; line-height:26px;}
+	.founder_section { padding-bottom:40px;}
+	.reviews_section .reviews_slider .review_item { padding-left:15px; padding-right:15px;}
+	.banner_section .bnr_left { width:100%;}
+}
+@media screen and (max-width:568px) {
+	.instructors_section .ins_left .num_block .num_item:nth-child(2n+0) {
+		padding-left: 45px;
+	}
+	.reviews_section .reviews_slider .review_item p { min-height:inherit;}
+}
+@media screen and (max-width:533px) {
+	.banner_section .bnr_left h4 {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.banner_section .bnr_left h2 {
+		font-size: 60px;
+		line-height: 60px;
+		letter-spacing: 3px;
+	}
+	.banner_section .bnr_left h3 {
+		font-size: 30px;
+		line-height: 30px;
+		letter-spacing: 1px;
+	}
+	.banner_section .bnr_left .bnr_btn a { font-size:15px; padding:13px 20px;}
+	.numbers_section .ns_item p { font-size:15px;}
+	.instructors_section {
+		padding-bottom: 40px;
+	}
+}
+@media screen and (max-width:480px) {
+	.numbers_section .ns_item h4 {
+		font-size: 36px;
+		letter-spacing:1px;
+	}
+	.instructors_section .ins_left .num_block .num_item { width:100%; text-align:center; border-right:0;}
+	.instructors_section .ins_left .num_block:after { display:none;}
+	.instructors_section .ins_left .num_block .num_item:nth-child(2n+0) { padding-left:0;}
+	.instructors_section .ins_left .num_block .num_item:nth-child(3n+0) { border-bottom: 1px solid #00bbe1;}
+	.instructors_section .ins_left .num_block { margin-bottom:20px;}
+	.reviews_section { padding:30px 0;}
+	.reviews_section h2 { margin-bottom:25px;}
+	.footer_section .fmid .fmid_block.fmid_block1, .footer_section .fmid .fmid_block.fmid_block2, .footer_section .fmid .fmid_block.fmid_block3, .footer_section .fmid .fmid_block.fmid_block4 { float:none; margin:0 auto 20px; width:300px; border: 1px solid #333333; padding: 15px 15px 0;}
+	.footer_section .fmid .fmid_block.fmid_block4, .footer_section .fmid .fmid_block.fmid_block2 { padding-bottom:15px;}
+	.footer_section .fmid .fmid_block.fmid_block4 img { display:block; margin:auto;}
+	.footer_section .fbot p { float:none; text-align:center; margin:0}
+	.footer_section .fbot .social_icons { float:none; text-align:center;}
+	.footer_section .fbot .social_icons a { float:none; display:inline-block;}
+}
+@media screen and (max-width:414px) {
+	.hdr_right {
+		width: 100%;
+		float: left;
+	}
+	.header_section .hdr_btn { margin:0; float:none; text-align:center;}
+	.header_section .hdr_btn a { float:none; display:inline-block;}
+	.header_section .logo img {
+		width: 200px;
+	}
+	.mobinav {
+		top: 25px;
+		right: 15px;
+	}
+	.header_section { padding-bottom:15px;}
+	.header_section .logo { float:none; text-align:center; margin-bottom:15px;}
+	.banner_section .bnr_left h4 { font-size:20px;}
+	.banner_section .bnr_left h4 br { display:none;}
+	.banner_section .bnr_left { padding-right: 80px;}
+	.banner_section .bnr_left h2 {
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.banner_section .bnr_left h3 {
+		font-size: 26px;
+		line-height: 26px;
+	}
+	.banner_section {
+		padding: 30px 0 50px;
+	}
+	.learners_section {
+		padding: 220px 0 50px;
+	}
+	.learners_section h2 {
+		font-size: 26px;
+	}
+	.numbers_section .ns_item {
+		width: 50%;
+	}
+	.numbers_section .ns_item:nth-child(3n+0) { border-right: 1px solid #d9f5fd;}
+	.numbers_section .ns_item:nth-child(2n+0) { border-right:0;}
+	.numbers_section .ns_item:nth-child(3):after { display:block;}
+	.numbers_section .ns_item:nth-child(2):after,
+	.numbers_section .ns_item:nth-child(4):after { display:none;}
+	.footer_section .ns_block .ns_form input[type="submit"] { font-size:16px;}
+	.learners_section .stn_btn.vac_btn a { line-height:22px; padding:10px 15px 11px;}
+}
+@media screen and (max-width:375px) {
+	.banner_section .bnr_left h2 {
+		font-size: 46px;
+		line-height: 46px;
+	}
+	.banner_section { padding-bottom:60px;}
+	.banner_section .bnr_left h3 {
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.learners_section h2 {
+		font-size: 24px;
+	}
+	.pricing_section .price_right .pr_block, .pricing_section .price_right .pr_block.pr_block2 { width:100%;}
+	.pricing_section .price_right .pr_block .bym_btn a { font-size:16px;}
+	.reviews_section h2 {
+		font-size: 32px;
+	}
+}
+@media screen and (max-width:360px) {
+	.founder_section .fs_right h2 {
+		font-size: 25px;
+	}
+	.instructors_section .ins_left h2 {
+		font-size: 28px;
+	}
+	.instructors_section .ins_left h4 { margin-bottom:0;}
+}
+@media screen and (max-width:320px) {
+	.learners_section .stn_btn a { padding:13px 15px 15px;}
+	.footer_section .fmid .fmid_block.fmid_block1, .footer_section .fmid .fmid_block.fmid_block2, .footer_section .fmid .fmid_block.fmid_block3, .footer_section .fmid .fmid_block.fmid_block4 { width:100%;}
+}
